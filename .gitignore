@@ -1,0 +1,22 @@
+# macOS system files to ignore
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon files
+Icon?
+
+# Thumbnails
+._*
+
+# Spotlight files
+.Spotlight-V100
+
+# Trash files
+.Trashes
+
+# macOS system files
+.fseventsd
+
+# macOS volume info
+.VolumeIcon.icns
