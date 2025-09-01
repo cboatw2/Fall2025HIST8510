@@ -18,7 +18,7 @@ print("\nStep 2: Reading CSV file...")
 venues_data = []
 
 try:
-    with open('corand100.csv', 'r', encoding='utf-8') as file:
+    with open('co-rand-100.csv', 'r', encoding='utf-8') as file:
         reader = csv.DictReader(file)
         for row in reader:
             venues_data.append(row)
@@ -33,6 +33,7 @@ print("\nStep 3: Importing cities...")
 cities_added = 0
 cities_skipped = 0
 
+#.strip removes leading/trailing whitespace
 for venue in venues_data:
     city = venue['city'].strip() if venue['city'] else None
     state = venue['state'].strip() if venue['state'] else None
