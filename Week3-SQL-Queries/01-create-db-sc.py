@@ -1,4 +1,4 @@
-# Script 1: Creating SC Database Structure
+# Creating SC Database Structure
 # History 8510 - Clemson University
 # This script creates the database tables for South Carolina data
 

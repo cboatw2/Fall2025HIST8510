@@ -33,29 +33,7 @@ def reset_to_original():
         else:
             print(f"   - Not found: {file}")
     
-    # Rename numbered scripts back to original names
-    print("\n🔄 Renaming scripts back to original names...")
-    
-    rename_mapping = {
-        '01-create-sc-database.py': 'create-db-sc.py',
-        '02-import-sc-data.py': 'import-data-sc.py',
-        '03-analyze-sc-geography.py': 'simple_geographic_analysis.py'
-    }
-    
-    for numbered_name, original_name in rename_mapping.items():
-        if os.path.exists(numbered_name):
-            os.rename(numbered_name, original_name)
-            print(f"   ✓ Renamed: {numbered_name} → {original_name}")
-        else:
-            print(f"   - Not found: {numbered_name}")
-    
-    # Check if we need to restore the original data.csv
-    if not os.path.exists('data.csv') and os.path.exists('sc-data.csv'):
-        print("\n📁 Restoring original data.csv...")
-        os.rename('sc-data.csv', 'data.csv')
-        print("   ✓ Restored: sc-data.csv → data.csv")
-    
-    print("\n✅ Reset complete! Folder restored to original state.")
+    print("\n✅ Reset complete! Generated files removed.")
     print("\n📋 Current files:")
     
     # Show current directory contents
@@ -65,7 +43,7 @@ def reset_to_original():
 
 if __name__ == "__main__":
     # Ask for confirmation before resetting
-    print("⚠️  WARNING: This will remove all generated files and reset script names!")
+    print("⚠️  WARNING: This will remove all generated files!")
     print("This action cannot be undone.")
     
     response = input("\nAre you sure you want to reset? (yes/no): ").strip().lower()

@@ -1,4 +1,4 @@
-# Script 2: Import SC CSV Data into Database
+# Import SC CSV Data into Database
 # History 8510 - Clemson University
 # This script populates the SC database with data from sc-data.csv
 
@@ -86,7 +86,7 @@ for i, venue in enumerate(venues_data):
             lat, lon, geo_address, unclear_address, status
         ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ''', (
-            venue['unique-id'],
+            venue['unique.id'],
             venue['title'],
             venue['description'],
             venue['type'],
