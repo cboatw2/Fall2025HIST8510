@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block title %}{{ venue.title }} - SC Gay Guides{% endblock %}
+
+{% block content %}
+<div class="back-link">
+    <a href="/">&larr; Back to Venues List</a>
+</div>
+
+<h1>{{ venue.title }}</h1>
+
+<div class="venue-card">
+    {% if venue.description %}
+    <div class="venue-info"><strong>Description:</strong> {{ venue.description }}</div>
+    {% endif %}
+    
+    {% if venue.type %}
+    <div class="venue-info"><strong>Type:</strong> {{ venue.type }}</div>
+    {% endif %}
+    
+    {% if venue.street_address %}
+    <div class="venue-info"><strong>Street Address:</strong> {{ venue.street_address }}</div>
+    {% endif %}
+    
+    {% if venue.full_address %}
+    <div class="venue-info"><strong>Full Address:</strong> {{ venue.full_address }}</div>
+    {% endif %}
+    
+    <div class="venue-info"><strong>Location:</strong> {{ venue.city_name }}, {{ venue.state }}</div>
+    
+    {% if venue.year %}
+    <div class="venue-info"><strong>Year:</strong> {{ venue.year }}</div>
+    {% endif %}
+    
+    {% if venue.lat and venue.lon %}
+    <div class="venue-info"><strong>Coordinates:</strong> {{ venue.lat }}, {{ venue.lon }}</div>
+    {% endif %}
+    
+    {% if venue.amenity_features %}
+    <div class="venue-info"><strong>Amenity Features:</strong> {{ venue.amenity_features }}</div>
+    {% endif %}
+    
+    {% if venue.notes %}
+    <div class="venue-info"><strong>Notes:</strong> {{ venue.notes }}</div>
+    {% endif %}
+    
+    {% if venue.status %}
+    <div class="venue-info"><strong>Status:</strong> {{ venue.status }}</div>
+    {% endif %}
+</div>
+
+<p><em>This demonstrates Flask's ability to display detailed information for individual database records.</em></p>
+{% endblock %}
