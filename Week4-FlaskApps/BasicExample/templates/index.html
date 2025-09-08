@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}SC Gay Guides - Venues{% endblock %}
+
+{% block content %}
+<h1>South Carolina Gay Guides - Venues</h1>
+<p>Here are some venues from the SC Gay Guides database:</p>
+
+{% for venue in venues %}
+<div class="venue-card">
+    <div class="venue-title">{{ venue.title }}</div>
+    {% if venue.description %}
+    <div class="venue-info"><strong>Description:</strong> {{ venue.description }}</div>
+    {% endif %}
+    {% if venue.street_address %}
+    <div class="venue-info"><strong>Address:</strong> {{ venue.street_address }}</div>
+    {% endif %}
+    <div class="venue-info"><strong>Location:</strong> {{ venue.city_name }}, {{ venue.state }}</div>
+    {% if venue.year %}
+    <div class="venue-info"><strong>Year:</strong> {{ venue.year }}</div>
+    {% endif %}
+    {% if venue.type %}
+    <span class="venue-type">{{ venue.type }}</span>
+    {% endif %}
+</div>
+{% endfor %}
+
+<p><em>This is a simple Flask demonstration showing how to connect to a SQLite database and display data in a web application.</em></p>
+{% endblock %}

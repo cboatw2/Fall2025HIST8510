@@ -1,0 +1,2 @@
+# Simple requirements for geographic analysis
+pandas>=1.5.0

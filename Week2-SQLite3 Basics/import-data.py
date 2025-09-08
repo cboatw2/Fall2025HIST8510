@@ -1,4 +1,4 @@
-# Script 2: Import CSV Data into Database
+# Script 2: Import CSV Data into DatabaseMerge upstream/main into main to update with latest changes from original repository.
 # History 8510 - August 25
 # This script populates our database with data from the CSV file
 
@@ -33,6 +33,7 @@ print("\nStep 3: Importing cities...")
 cities_added = 0
 cities_skipped = 0
 
+#.strip removes leading/trailing whitespace
 for venue in venues_data:
     city = venue['city'].strip() if venue['city'] else None
     state = venue['state'].strip() if venue['state'] else None
