@@ -29,7 +29,7 @@ app = Flask(__name__)
 # Database configuration
 # This is the path to our SQLite database file
 # We're using a relative path to go up one directory to Week3-SQL-Queries
-DB_PATH = '../Week3-SQL-Queries/sc_gay_guides.db'
+DB_PATH = 'sc_gay_guides.db'
 
 def get_db_connection():
     """
@@ -139,6 +139,17 @@ def venue_detail(venue_id):
     
     # Render the detail template and pass the venue data to it
     return render_template('venue_detail.html', venue=venue)
+
+# New route to display all unique cities
+@app.route('/cities')
+def cities():
+    """
+    Cities page route - displays a list of unique cities
+    """
+    conn = get_db_connection()
+    cities = conn.execute('SELECT DISTINCT city_name FROM cities ORDER BY city_name').fetchall()
+    conn.close()
+    return render_template('cities.html', cities=cities)
 
 # This block only runs when the script is executed directly
 # (not when imported as a module)
