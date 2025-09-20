@@ -9,6 +9,7 @@ This demo shows how AI APIs can significantly improve OCR results for historical
 - `vision_api_ocr.py` - Direct image-to-text using OpenAI Vision API
 - `cleanup_results.py` - Clean up generated .txt files (Python version)
 - `cleanup.sh` - Clean up generated .txt files (Shell version)
+- `cost_calculator.py` - Estimate costs for different OCR methods
 - `requirements.txt` - Python dependencies
 
 ## Setup
@@ -81,3 +82,39 @@ python cleanup_results.py              # Actually delete files
 ./cleanup.sh --dry-run                 # See what would be deleted  
 ./cleanup.sh                           # Actually delete files
 ```
+
+### Estimate Costs
+
+Calculate estimated costs for different document sizes:
+
+```bash
+python cost_calculator.py                    # Show example costs
+python cost_calculator.py --tokens 2787     # Calculate for specific token count
+python cost_calculator.py --pages 5          # Calculate for specific page count
+```
+
+## Cost Tracking
+
+Both scripts now display detailed token usage and cost information after each run:
+
+### OCR + AI Correction (GPT-3.5-turbo)
+- **Input Cost**: $0.50 per 1M tokens
+- **Output Cost**: $1.50 per 1M tokens
+- **Example**: ~2,800 tokens = ~$0.002 per document
+
+### Vision API (GPT-4o)
+- **Input Cost**: $5.00 per 1M tokens  
+- **Output Cost**: $15.00 per 1M tokens
+- **Example**: ~2,400 tokens = ~$0.024 per document
+
+### Cost Comparison
+- **Tesseract + AI**: Cheaper for large documents (chunking reduces costs)
+- **Vision API**: More expensive but single-step process
+- **Typical historical document**: $0.002-0.05 per page depending on method
+
+The scripts automatically display:
+- Prompt tokens used
+- Output tokens generated  
+- Total tokens consumed
+- Estimated cost breakdown
+- Model used

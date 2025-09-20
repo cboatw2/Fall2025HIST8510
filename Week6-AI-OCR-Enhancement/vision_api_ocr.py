@@ -49,7 +49,7 @@ def transcribe_with_vision_api(image_path, api_key):
         api_key (str): OpenAI API key
         
     Returns:
-        str: Transcribed text from Vision API
+        tuple: (transcribed_text, usage_info)
     """
     try:
         # Initialize OpenAI client
@@ -58,7 +58,7 @@ def transcribe_with_vision_api(image_path, api_key):
         # Encode the image
         base64_image = encode_image(image_path)
         if not base64_image:
-            return None
+            return None, None
         
         # Determine image format
         image_format = Path(image_path).suffix.lower()
@@ -99,12 +99,80 @@ def transcribe_with_vision_api(image_path, api_key):
             temperature=0.1  # Low temperature for consistent transcription
         )
         
+        # Extract usage information
+        usage = response.usage
+        usage_info = {
+            'prompt_tokens': usage.prompt_tokens,
+            'completion_tokens': usage.completion_tokens,
+            'total_tokens': usage.total_tokens
+        }
+        
         transcribed_text = response.choices[0].message.content.strip()
-        return transcribed_text
+        return transcribed_text, usage_info
         
     except Exception as e:
         print(f"Error calling OpenAI Vision API: {e}")
-        return None
+        return None, None
+
+
+def calculate_cost(usage_info, model="gpt-4o"):
+    """
+    Calculate estimated cost based on token usage.
+    
+    Args:
+        usage_info (dict): Token usage information
+        model (str): Model used for the API call
+        
+    Returns:
+        dict: Cost breakdown
+    """
+    # Pricing per 1K tokens (as of 2024)
+    pricing = {
+        "gpt-3.5-turbo": {
+            "input": 0.0005,   # $0.50 per 1M tokens
+            "output": 0.0015   # $1.50 per 1M tokens
+        },
+        "gpt-4o": {
+            "input": 0.005,    # $5.00 per 1M tokens
+            "output": 0.015    # $15.00 per 1M tokens
+        }
+    }
+    
+    if model not in pricing:
+        model = "gpt-4o"  # Default fallback
+    
+    input_cost = (usage_info['prompt_tokens'] / 1000) * pricing[model]["input"]
+    output_cost = (usage_info['completion_tokens'] / 1000) * pricing[model]["output"]
+    total_cost = input_cost + output_cost
+    
+    return {
+        "input_cost": input_cost,
+        "output_cost": output_cost,
+        "total_cost": total_cost,
+        "model": model
+    }
+
+
+def print_usage_summary(usage_info, cost_info):
+    """
+    Print token usage and cost summary to terminal.
+    
+    Args:
+        usage_info (dict): Token usage information
+        cost_info (dict): Cost breakdown
+    """
+    print("\n" + "=" * 50)
+    print("OPENAI VISION API USAGE SUMMARY")
+    print("=" * 50)
+    print(f"Model: {cost_info['model']}")
+    print(f"Prompt Tokens:  {usage_info['prompt_tokens']:,}")
+    print(f"Output Tokens:  {usage_info['completion_tokens']:,}")
+    print(f"Total Tokens:   {usage_info['total_tokens']:,}")
+    print("-" * 50)
+    print(f"Input Cost:     ${cost_info['input_cost']:.4f}")
+    print(f"Output Cost:    ${cost_info['output_cost']:.4f}")
+    print(f"Total Cost:     ${cost_info['total_cost']:.4f}")
+    print("=" * 50)
 
 
 def save_transcription(text, image_path, output_dir="vision_results"):
@@ -156,7 +224,7 @@ def main():
     
     # Transcribe with Vision API
     print("Step 1: Sending image to OpenAI Vision API...")
-    transcribed_text = transcribe_with_vision_api(args.image_path, api_key)
+    transcribed_text, usage_info = transcribe_with_vision_api(args.image_path, api_key)
     
     if not transcribed_text:
         print("Error: Vision API transcription failed.")
@@ -168,6 +236,11 @@ def main():
     print("-" * 30)
     print(transcribed_text)
     print("-" * 30)
+    
+    # Calculate and display usage/cost
+    if usage_info:
+        cost_info = calculate_cost(usage_info, "gpt-4o")
+        print_usage_summary(usage_info, cost_info)
     
     # Save results
     print("\nStep 2: Saving results...")

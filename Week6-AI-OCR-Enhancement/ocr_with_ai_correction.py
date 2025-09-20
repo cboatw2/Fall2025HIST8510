@@ -131,11 +131,18 @@ def correct_text_with_ai(text, api_key):
         api_key (str): OpenAI API key
         
     Returns:
-        str: Corrected text from AI
+        tuple: (corrected_text, total_usage_info)
     """
     try:
         # Initialize OpenAI client
         client = OpenAI(api_key=api_key)
+        
+        # Initialize usage tracking
+        total_usage = {
+            'prompt_tokens': 0,
+            'completion_tokens': 0,
+            'total_tokens': 0
+        }
         
         # Check if text is too large for single API call
         if len(text) > 3000:  # Rough estimate for token limit
@@ -157,12 +164,18 @@ def correct_text_with_ai(text, api_key):
                     temperature=0.1
                 )
                 
+                # Track usage for this chunk
+                usage = response.usage
+                total_usage['prompt_tokens'] += usage.prompt_tokens
+                total_usage['completion_tokens'] += usage.completion_tokens
+                total_usage['total_tokens'] += usage.total_tokens
+                
                 corrected_chunk = response.choices[0].message.content.strip()
                 corrected_chunks.append(corrected_chunk)
             
             # Combine all corrected chunks
             corrected_text = '\n'.join(corrected_chunks)
-            return corrected_text
+            return corrected_text, total_usage
         
         else:
             # Process small document normally
@@ -178,12 +191,78 @@ def correct_text_with_ai(text, api_key):
                 temperature=0.1
             )
             
+            # Track usage
+            usage = response.usage
+            total_usage['prompt_tokens'] = usage.prompt_tokens
+            total_usage['completion_tokens'] = usage.completion_tokens
+            total_usage['total_tokens'] = usage.total_tokens
+            
             corrected_text = response.choices[0].message.content.strip()
-            return corrected_text
+            return corrected_text, total_usage
         
     except Exception as e:
         print(f"Error calling OpenAI API: {e}")
-        return None
+        return None, None
+
+
+def calculate_cost(usage_info, model="gpt-3.5-turbo"):
+    """
+    Calculate estimated cost based on token usage.
+    
+    Args:
+        usage_info (dict): Token usage information
+        model (str): Model used for the API call
+        
+    Returns:
+        dict: Cost breakdown
+    """
+    # Pricing per 1K tokens (as of 2024)
+    pricing = {
+        "gpt-3.5-turbo": {
+            "input": 0.0005,   # $0.50 per 1M tokens
+            "output": 0.0015   # $1.50 per 1M tokens
+        },
+        "gpt-4o": {
+            "input": 0.005,    # $5.00 per 1M tokens
+            "output": 0.015    # $15.00 per 1M tokens
+        }
+    }
+    
+    if model not in pricing:
+        model = "gpt-3.5-turbo"  # Default fallback
+    
+    input_cost = (usage_info['prompt_tokens'] / 1000) * pricing[model]["input"]
+    output_cost = (usage_info['completion_tokens'] / 1000) * pricing[model]["output"]
+    total_cost = input_cost + output_cost
+    
+    return {
+        "input_cost": input_cost,
+        "output_cost": output_cost,
+        "total_cost": total_cost,
+        "model": model
+    }
+
+
+def print_usage_summary(usage_info, cost_info):
+    """
+    Print token usage and cost summary to terminal.
+    
+    Args:
+        usage_info (dict): Token usage information
+        cost_info (dict): Cost breakdown
+    """
+    print("\n" + "=" * 50)
+    print("OPENAI API USAGE SUMMARY")
+    print("=" * 50)
+    print(f"Model: {cost_info['model']}")
+    print(f"Prompt Tokens:  {usage_info['prompt_tokens']:,}")
+    print(f"Output Tokens:  {usage_info['completion_tokens']:,}")
+    print(f"Total Tokens:   {usage_info['total_tokens']:,}")
+    print("-" * 50)
+    print(f"Input Cost:     ${cost_info['input_cost']:.4f}")
+    print(f"Output Cost:    ${cost_info['output_cost']:.4f}")
+    print(f"Total Cost:     ${cost_info['total_cost']:.4f}")
+    print("=" * 50)
 
 
 def save_results(original_text, corrected_text, image_path, output_dir="ocr_results"):
@@ -257,7 +336,7 @@ def main():
     
     # Step 2: Correct with AI
     print("\nStep 2: Sending to OpenAI for correction...")
-    corrected_text = correct_text_with_ai(original_text, api_key)
+    corrected_text, usage_info = correct_text_with_ai(original_text, api_key)
     
     if not corrected_text:
         print("Error: AI correction failed.")
@@ -269,8 +348,13 @@ def main():
     print(corrected_text)
     print("-" * 30)
     
-    # Step 3: Save results
-    print("\nStep 3: Saving results...")
+    # Step 3: Calculate and display usage/cost
+    if usage_info:
+        cost_info = calculate_cost(usage_info, "gpt-3.5-turbo")
+        print_usage_summary(usage_info, cost_info)
+    
+    # Step 4: Save results
+    print("\nStep 4: Saving results...")
     save_results(original_text, corrected_text, args.image_path, args.output_dir)
     
     print("\nProcess completed successfully!")
