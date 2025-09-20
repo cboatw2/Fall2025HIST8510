@@ -74,17 +74,19 @@ def transcribe_with_vision_api(image_path, api_key):
                     "content": [
                         {
                             "type": "text",
-                            "text": """Please transcribe all the text visible in this image. 
+                            "text": """Please transcribe all the text visible in this image. The text may be in any language including English, Spanish, French, German, Chinese, Japanese, Korean, Arabic, Hindi, Tamil, or other languages.
                             
                             Instructions:
                             1. Extract ALL text from the image, preserving the original layout and structure
                             2. Maintain line breaks and paragraph structure
                             3. Do not add any commentary or interpretation
                             4. If text is unclear or partially obscured, transcribe what you can see
-                            5. Preserve original spelling and formatting
+                            5. Preserve original spelling and formatting in the original language
                             6. Include headers, titles, dates, and all visible text elements
+                            7. If the text is in a non-Latin script (like Arabic, Chinese, Tamil, etc.), transcribe it exactly as written
+                            8. Do not translate the text - only transcribe it
                             
-                            Return only the transcribed text."""
+                            Return only the transcribed text in its original language."""
                         },
                         {
                             "type": "image_url",
