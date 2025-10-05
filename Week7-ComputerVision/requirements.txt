@@ -1,0 +1,4 @@
+layoutparser
+opencv-python
+Pillow
+numpy
