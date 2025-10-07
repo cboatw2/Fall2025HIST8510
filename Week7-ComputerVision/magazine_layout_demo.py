@@ -38,7 +38,7 @@ import numpy as np
 
 # ====== Parameters - Adjust based on your documents ======
 # Binarization
-ADAPTIVE_BLOCK_SIZE = 25     # Window size for adaptive threshold (must be odd)
+ADAPTIVE_BLOCK_SIZE = 35     # Window size for adaptive threshold (must be odd)
                              # Larger = more global, smaller = more local
 ADAPTIVE_C = 11              # Constant subtracted from mean
                              # Higher = more aggressive thresholding
@@ -50,7 +50,7 @@ HORIZ_KERNEL = (60, 1)       # Detect horizontal lines at least 60px wide
 
 # Text region morphology
 TEXT_CLOSE_H = (17, 3)       # Close horizontal gaps (connect words)
-TEXT_CLOSE_V = (3, 9)        # Close vertical gaps (connect lines)
+TEXT_CLOSE_V = (6, 18)        # Close vertical gaps (connect lines)
                              # Increase to merge more aggressively
 
 # Filtering
