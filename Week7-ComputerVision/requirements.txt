@@ -1,0 +1,3 @@
+opencv-python
+numpy
+pytesseract  # optional; needed only if using --ocr
