@@ -21,4 +21,4 @@ Icon?
 # macOS volume info
 .VolumeIcon.icns
 
-Word-Vector-Alignment/*.txt
+Word-Vector-Alignment/txt/*
