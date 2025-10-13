@@ -18,16 +18,18 @@ def reset_directory():
     current_dir = Path.cwd()
     print(f"📁 Current directory: {current_dir}")
     
-    # Find all CSV files
-    csv_files = glob.glob("*.csv")
+    # Find all CSV files in current directory and results directory
+    csv_files_current = glob.glob("*.csv")
+    csv_files_results = glob.glob("results/*.csv") if os.path.exists("results") else []
+    all_csv_files = csv_files_current + csv_files_results
     
-    if csv_files:
-        print(f"\n🗑️  Found {len(csv_files)} CSV files to remove:")
-        for csv_file in csv_files:
+    if all_csv_files:
+        print(f"\n🗑️  Found {len(all_csv_files)} CSV files to remove:")
+        for csv_file in all_csv_files:
             print(f"   • {csv_file}")
         
         # Remove CSV files
-        for csv_file in csv_files:
+        for csv_file in all_csv_files:
             try:
                 os.remove(csv_file)
                 print(f"✅ Removed: {csv_file}")
@@ -35,6 +37,18 @@ def reset_directory():
                 print(f"❌ Error removing {csv_file}: {e}")
     else:
         print("\n📄 No CSV files found to remove")
+    
+    # Remove results directory if it exists and is empty
+    results_dir = Path("results")
+    if results_dir.exists():
+        try:
+            if not any(results_dir.iterdir()):  # Directory is empty
+                results_dir.rmdir()
+                print("✅ Removed empty results directory")
+            else:
+                print("ℹ️  Results directory not empty, keeping it")
+        except OSError as e:
+            print(f"ℹ️  Could not remove results directory: {e}")
     
     # Check for virtual environment
     venv_dir = Path("ner_env")

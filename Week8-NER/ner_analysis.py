@@ -61,7 +61,7 @@ def extract_entities(text, nlp):
 
 def save_entities_to_csv(entities, output_file):
     """
-    Save extracted entities to a single CSV file.
+    Save extracted entities to a single CSV file in the results directory.
     
     Args:
         entities (list): List of entity dictionaries
@@ -71,9 +71,15 @@ def save_entities_to_csv(entities, output_file):
         print("❌ No entities found to save.")
         return
     
+    # Create results directory if it doesn't exist
+    results_dir = Path("results")
+    results_dir.mkdir(exist_ok=True)
+    
+    # Save to results directory
+    output_path = results_dir / output_file
     entities_df = pd.DataFrame(entities)
-    entities_df.to_csv(output_file, index=False)
-    print(f"💾 Saved {len(entities)} entities to: {output_file}")
+    entities_df.to_csv(output_path, index=False)
+    print(f"💾 Saved {len(entities)} entities to: {output_path}")
 
 def main():
     """Main function to run NER analysis."""
