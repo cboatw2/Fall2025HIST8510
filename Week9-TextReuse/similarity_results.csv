@@ -1,0 +1,417 @@
+title1,title2,address1,address2,ngram_similarity,shingle_similarity,combined_similarity
+Maxines ,Maxine's ,243 Camac,243 Camac,1.0,1.0,1.0
+Maxines ,Maxine's ,243 Camac,243 Camac ,1.0,1.0,1.0
+Maxines ,Maxine's ,243 Camac,243 Camac ,1.0,1.0,1.0
+P.B.L. Club ,P.B.L Club ,204 S. Quince ,204 S. Quince ,1.0,1.0,1.0
+P.B.L. Club ,PBL Club ,204 S. Quince ,204 Quince ,1.0,1.0,1.0
+V.I.P. Club,V.I.P Club,,,1.0,1.0,1.0
+P.B.L Club ,PBL Club ,204 S. Quince ,204 Quince ,1.0,1.0,1.0
+Dewey's,Deweys,17th & Chancellor,Chancelor at 17th St.,1.0,1.0,1.0
+Westbury Hotel Bar ,Westbury Hotel ,217 S. 15th St. ,271 S 15th St. ,0.5,0.75,0.6875
+Westbury Hotel Bar ,Westbury Hotel ,271 S. 15th St. ,271 S 15th St. ,0.5,0.75,0.6875
+Westbury Hotel Bar ,Westbury Hotel ,271 S. 15th St. ,271 S 15th St. ,0.5,0.75,0.6875
+Penrose Club ,The Penrose Club ,1415 Locust,1415 Locust ,0.5,0.7142857142857143,0.6607142857142857
+Penrose Club ,The Penrose Club ,1415 Locust ,1415 Locust ,0.5,0.7142857142857143,0.6607142857142857
+Penrose Club ,The Penrose Club ,1415 Locust ,1415 Locust ,0.5,0.7142857142857143,0.6607142857142857
+Carey's,Dewey's,23rd & Fairmount,17th & Chancellor,1.0,0.14285714285714285,0.35714285714285715
+Carey's,Deweys,23rd & Fairmount,Chancelor at 17th St.,1.0,0.14285714285714285,0.35714285714285715
+Parker Hotel Bar,Westbury Hotel Bar ,13th & Spruce,217 S. 15th St. ,0.3333333333333333,0.36363636363636365,0.356060606060606
+Parker Hotel Bar,Westbury Hotel Bar ,13th & Spruce,271 S. 15th St. ,0.3333333333333333,0.36363636363636365,0.356060606060606
+Parker Hotel Bar,Westbury Hotel Bar ,13th & Spruce,271 S. 15th St. ,0.3333333333333333,0.36363636363636365,0.356060606060606
+Westbury Hotel Bar ,Parker Hotel Bar,217 S. 15th St. ,13th & Spruce,0.3333333333333333,0.36363636363636365,0.356060606060606
+Parker Hotel Bar,Westbury Hotel Bar ,13th & Spruce,271 S. 15th St. ,0.3333333333333333,0.36363636363636365,0.356060606060606
+Parker Hotel Bar,Westbury Hotel Bar ,13th & Spruce,271 S. 15th St. ,0.3333333333333333,0.36363636363636365,0.356060606060606
+C.R. Club ,R.D. Club,6400 Market ,13th & Locust,0.0,0.42857142857142855,0.3214285714285714
+Rittenhouse Square,Spruce St. from Broad St. to area of Rittenhouse Square,,,0.1111111111111111,0.3404255319148936,0.283096926713948
+C.R. Club ,P.B.L. Club ,6400 Market ,204 S. Quince ,0.0,0.375,0.28125
+C.R. Club ,V.I.P. Club,6400 Market ,,0.0,0.375,0.28125
+C.R. Club ,P.B.L Club ,6400 Market ,204 S. Quince ,0.0,0.375,0.28125
+C.R. Club ,V.I.P Club,6400 Market ,,0.0,0.375,0.28125
+C.R. Club ,PBL Club ,6400 Market ,204 Quince ,0.0,0.375,0.28125
+P.B.L. Club ,R.D. Club,204 S. Quince ,13th & Locust,0.0,0.375,0.28125
+R.D. Club,V.I.P. Club,13th & Locust,,0.0,0.375,0.28125
+R.D. Club,P.B.L Club ,13th & Locust,204 S. Quince ,0.0,0.375,0.28125
+R.D. Club,V.I.P Club,13th & Locust,,0.0,0.375,0.28125
+R.D. Club,PBL Club ,13th & Locust,204 Quince ,0.0,0.375,0.28125
+Allegro ,Attic ,1412 Spruce ,5710 Germantown,1.0,0.0,0.25
+Allegro ,Carey's,1412 Spruce ,23rd & Fairmount,1.0,0.0,0.25
+Allegro ,Comeback ,1412 Spruce ,1308 Drury Lane ,1.0,0.0,0.25
+Allegro ,Frank's ,1412 Spruce ,347 S. 13th ,1.0,0.0,0.25
+Allegro ,Maxines ,1412 Spruce ,243 Camac,1.0,0.0,0.25
+Allegro ,Midway,1412 Spruce ,256 S. 12th St. ,1.0,0.0,0.25
+Allegro ,Rusty's,1412 Spruce ,Quince & Walnut,1.0,0.0,0.25
+Allegro ,Two-Forty-Seven ,1412 Spruce ,247 17th St. ,1.0,0.0,0.25
+Allegro ,Attic ,1412 Spruce ,5710 Germantown ,1.0,0.0,0.25
+Allegro ,Maxine's ,1412 Spruce ,243 Camac,1.0,0.0,0.25
+Allegro ,Midway ,1412 Spruce ,256 S. 12th St. ,1.0,0.0,0.25
+Allegro ,Mystique ,1412 Spruce ,1418 Spruce ,1.0,0.0,0.25
+Allegro ,Rusty's,1412 Spruce ,Quince & Walnut,1.0,0.0,0.25
+Allegro ,Attic ,1412 Spruce ,5710 Germantown ,1.0,0.0,0.25
+Allegro ,Attic ,1412 Spruce ,5710 Germantown,1.0,0.0,0.25
+Allegro ,Buddy's,1412 Spruce ,13th & Commerce,1.0,0.0,0.25
+Allegro ,Dewey's,1412 Spruce ,17th & Chancellor,1.0,0.0,0.25
+Allegro ,Deweys,1412 Spruce ,Chancelor at 17th St.,1.0,0.0,0.25
+Allegro ,Maxine's ,1412 Spruce ,243 Camac ,1.0,0.0,0.25
+Allegro ,Maxine's ,1412 Spruce ,243 Camac ,1.0,0.0,0.25
+Allegro ,Midway ,1412 Spruce ,256 S. 12th St. ,1.0,0.0,0.25
+Allegro ,Midway ,1412 Spruce ,256 S. 12th St. ,1.0,0.0,0.25
+Allegro ,Mystique,1412 Spruce ,1418 Spruce ,1.0,0.0,0.25
+Allegro ,Mystique ,1412 Spruce ,1418 Spruce ,1.0,0.0,0.25
+Allegro ,USAA ,1412 Spruce ,204 S. Quine ,1.0,0.0,0.25
+Attic ,Carey's,5710 Germantown,23rd & Fairmount,1.0,0.0,0.25
+Attic ,Comeback ,5710 Germantown,1308 Drury Lane ,1.0,0.0,0.25
+Attic ,Frank's ,5710 Germantown,347 S. 13th ,1.0,0.0,0.25
+Attic ,Maxines ,5710 Germantown,243 Camac,1.0,0.0,0.25
+Attic ,Midway,5710 Germantown,256 S. 12th St. ,1.0,0.0,0.25
+Attic ,Rusty's,5710 Germantown,Quince & Walnut,1.0,0.0,0.25
+Attic ,Two-Forty-Seven ,5710 Germantown,247 17th St. ,1.0,0.0,0.25
+Attic ,Allegro ,5710 Germantown,1412 Spruce ,1.0,0.0,0.25
+Attic ,Maxine's ,5710 Germantown,243 Camac,1.0,0.0,0.25
+Attic ,Midway ,5710 Germantown,256 S. 12th St. ,1.0,0.0,0.25
+Attic ,Mystique ,5710 Germantown,1418 Spruce ,1.0,0.0,0.25
+Attic ,Rusty's,5710 Germantown,Quince & Walnut,1.0,0.0,0.25
+Attic ,Allegro ,5710 Germantown,1412 Spruce ,1.0,0.0,0.25
+Attic ,Allegro ,5710 Germantown,1412 Spruce ,1.0,0.0,0.25
+Attic ,Buddy's,5710 Germantown,13th & Commerce,1.0,0.0,0.25
+Attic ,Dewey's,5710 Germantown,17th & Chancellor,1.0,0.0,0.25
+Attic ,Deweys,5710 Germantown,Chancelor at 17th St.,1.0,0.0,0.25
+Attic ,Maxine's ,5710 Germantown,243 Camac ,1.0,0.0,0.25
+Attic ,Maxine's ,5710 Germantown,243 Camac ,1.0,0.0,0.25
+Attic ,Midway ,5710 Germantown,256 S. 12th St. ,1.0,0.0,0.25
+Attic ,Midway ,5710 Germantown,256 S. 12th St. ,1.0,0.0,0.25
+Attic ,Mystique,5710 Germantown,1418 Spruce ,1.0,0.0,0.25
+Attic ,Mystique ,5710 Germantown,1418 Spruce ,1.0,0.0,0.25
+Attic ,USAA ,5710 Germantown,204 S. Quine ,1.0,0.0,0.25
+Carey's,Comeback ,23rd & Fairmount,1308 Drury Lane ,1.0,0.0,0.25
+Carey's,Frank's ,23rd & Fairmount,347 S. 13th ,1.0,0.0,0.25
+Carey's,Maxines ,23rd & Fairmount,243 Camac,1.0,0.0,0.25
+Carey's,Midway,23rd & Fairmount,256 S. 12th St. ,1.0,0.0,0.25
+Carey's,Rusty's,23rd & Fairmount,Quince & Walnut,1.0,0.0,0.25
+Carey's,Two-Forty-Seven ,23rd & Fairmount,247 17th St. ,1.0,0.0,0.25
+Carey's,Allegro ,23rd & Fairmount,1412 Spruce ,1.0,0.0,0.25
+Carey's,Attic ,23rd & Fairmount,5710 Germantown ,1.0,0.0,0.25
+Carey's,Maxine's ,23rd & Fairmount,243 Camac,1.0,0.0,0.25
+Carey's,Midway ,23rd & Fairmount,256 S. 12th St. ,1.0,0.0,0.25
+Carey's,Mystique ,23rd & Fairmount,1418 Spruce ,1.0,0.0,0.25
+Carey's,Rusty's,23rd & Fairmount,Quince & Walnut,1.0,0.0,0.25
+Carey's,Allegro ,23rd & Fairmount,1412 Spruce ,1.0,0.0,0.25
+Carey's,Allegro ,23rd & Fairmount,1412 Spruce ,1.0,0.0,0.25
+Carey's,Attic ,23rd & Fairmount,5710 Germantown ,1.0,0.0,0.25
+Carey's,Attic ,23rd & Fairmount,5710 Germantown,1.0,0.0,0.25
+Carey's,Buddy's,23rd & Fairmount,13th & Commerce,1.0,0.0,0.25
+Carey's,Maxine's ,23rd & Fairmount,243 Camac ,1.0,0.0,0.25
+Carey's,Maxine's ,23rd & Fairmount,243 Camac ,1.0,0.0,0.25
+Carey's,Midway ,23rd & Fairmount,256 S. 12th St. ,1.0,0.0,0.25
+Carey's,Midway ,23rd & Fairmount,256 S. 12th St. ,1.0,0.0,0.25
+Carey's,Mystique,23rd & Fairmount,1418 Spruce ,1.0,0.0,0.25
+Carey's,Mystique ,23rd & Fairmount,1418 Spruce ,1.0,0.0,0.25
+Carey's,USAA ,23rd & Fairmount,204 S. Quine ,1.0,0.0,0.25
+Comeback ,Frank's ,1308 Drury Lane ,347 S. 13th ,1.0,0.0,0.25
+Comeback ,Maxines ,1308 Drury Lane ,243 Camac,1.0,0.0,0.25
+Comeback ,Midway,1308 Drury Lane ,256 S. 12th St. ,1.0,0.0,0.25
+Comeback ,Rusty's,1308 Drury Lane ,Quince & Walnut,1.0,0.0,0.25
+Comeback ,Two-Forty-Seven ,1308 Drury Lane ,247 17th St. ,1.0,0.0,0.25
+Comeback ,Allegro ,1308 Drury Lane ,1412 Spruce ,1.0,0.0,0.25
+Comeback ,Attic ,1308 Drury Lane ,5710 Germantown ,1.0,0.0,0.25
+Comeback ,Maxine's ,1308 Drury Lane ,243 Camac,1.0,0.0,0.25
+Comeback ,Midway ,1308 Drury Lane ,256 S. 12th St. ,1.0,0.0,0.25
+Comeback ,Mystique ,1308 Drury Lane ,1418 Spruce ,1.0,0.0,0.25
+Comeback ,Rusty's,1308 Drury Lane ,Quince & Walnut,1.0,0.0,0.25
+Comeback ,Allegro ,1308 Drury Lane ,1412 Spruce ,1.0,0.0,0.25
+Comeback ,Allegro ,1308 Drury Lane ,1412 Spruce ,1.0,0.0,0.25
+Comeback ,Attic ,1308 Drury Lane ,5710 Germantown ,1.0,0.0,0.25
+Comeback ,Attic ,1308 Drury Lane ,5710 Germantown,1.0,0.0,0.25
+Comeback ,Buddy's,1308 Drury Lane ,13th & Commerce,1.0,0.0,0.25
+Comeback ,Dewey's,1308 Drury Lane ,17th & Chancellor,1.0,0.0,0.25
+Comeback ,Deweys,1308 Drury Lane ,Chancelor at 17th St.,1.0,0.0,0.25
+Comeback ,Maxine's ,1308 Drury Lane ,243 Camac ,1.0,0.0,0.25
+Comeback ,Maxine's ,1308 Drury Lane ,243 Camac ,1.0,0.0,0.25
+Comeback ,Midway ,1308 Drury Lane ,256 S. 12th St. ,1.0,0.0,0.25
+Comeback ,Midway ,1308 Drury Lane ,256 S. 12th St. ,1.0,0.0,0.25
+Comeback ,Mystique,1308 Drury Lane ,1418 Spruce ,1.0,0.0,0.25
+Comeback ,Mystique ,1308 Drury Lane ,1418 Spruce ,1.0,0.0,0.25
+Comeback ,USAA ,1308 Drury Lane ,204 S. Quine ,1.0,0.0,0.25
+Frank's ,Maxines ,347 S. 13th ,243 Camac,1.0,0.0,0.25
+Frank's ,Midway,347 S. 13th ,256 S. 12th St. ,1.0,0.0,0.25
+Frank's ,Rusty's,347 S. 13th ,Quince & Walnut,1.0,0.0,0.25
+Frank's ,Two-Forty-Seven ,347 S. 13th ,247 17th St. ,1.0,0.0,0.25
+Frank's ,Allegro ,347 S. 13th ,1412 Spruce ,1.0,0.0,0.25
+Frank's ,Attic ,347 S. 13th ,5710 Germantown ,1.0,0.0,0.25
+Frank's ,Maxine's ,347 S. 13th ,243 Camac,1.0,0.0,0.25
+Frank's ,Midway ,347 S. 13th ,256 S. 12th St. ,1.0,0.0,0.25
+Frank's ,Mystique ,347 S. 13th ,1418 Spruce ,1.0,0.0,0.25
+Frank's ,Rusty's,347 S. 13th ,Quince & Walnut,1.0,0.0,0.25
+Frank's ,Allegro ,347 S. 13th ,1412 Spruce ,1.0,0.0,0.25
+Frank's ,Allegro ,347 S. 13th ,1412 Spruce ,1.0,0.0,0.25
+Frank's ,Attic ,347 S. 13th ,5710 Germantown ,1.0,0.0,0.25
+Frank's ,Attic ,347 S. 13th ,5710 Germantown,1.0,0.0,0.25
+Frank's ,Buddy's,347 S. 13th ,13th & Commerce,1.0,0.0,0.25
+Frank's ,Dewey's,347 S. 13th ,17th & Chancellor,1.0,0.0,0.25
+Frank's ,Deweys,347 S. 13th ,Chancelor at 17th St.,1.0,0.0,0.25
+Frank's ,Maxine's ,347 S. 13th ,243 Camac ,1.0,0.0,0.25
+Frank's ,Maxine's ,347 S. 13th ,243 Camac ,1.0,0.0,0.25
+Frank's ,Midway ,347 S. 13th ,256 S. 12th St. ,1.0,0.0,0.25
+Frank's ,Midway ,347 S. 13th ,256 S. 12th St. ,1.0,0.0,0.25
+Frank's ,Mystique,347 S. 13th ,1418 Spruce ,1.0,0.0,0.25
+Frank's ,Mystique ,347 S. 13th ,1418 Spruce ,1.0,0.0,0.25
+Frank's ,USAA ,347 S. 13th ,204 S. Quine ,1.0,0.0,0.25
+Maxines ,Midway,243 Camac,256 S. 12th St. ,1.0,0.0,0.25
+Maxines ,Rusty's,243 Camac,Quince & Walnut,1.0,0.0,0.25
+Maxines ,Two-Forty-Seven ,243 Camac,247 17th St. ,1.0,0.0,0.25
+Maxines ,Allegro ,243 Camac,1412 Spruce ,1.0,0.0,0.25
+Maxines ,Attic ,243 Camac,5710 Germantown ,1.0,0.0,0.25
+Maxines ,Midway ,243 Camac,256 S. 12th St. ,1.0,0.0,0.25
+Maxines ,Mystique ,243 Camac,1418 Spruce ,1.0,0.0,0.25
+Maxines ,Rusty's,243 Camac,Quince & Walnut,1.0,0.0,0.25
+Maxines ,Allegro ,243 Camac,1412 Spruce ,1.0,0.0,0.25
+Maxines ,Allegro ,243 Camac,1412 Spruce ,1.0,0.0,0.25
+Maxines ,Attic ,243 Camac,5710 Germantown ,1.0,0.0,0.25
+Maxines ,Attic ,243 Camac,5710 Germantown,1.0,0.0,0.25
+Maxines ,Buddy's,243 Camac,13th & Commerce,1.0,0.0,0.25
+Maxines ,Dewey's,243 Camac,17th & Chancellor,1.0,0.0,0.25
+Maxines ,Deweys,243 Camac,Chancelor at 17th St.,1.0,0.0,0.25
+Maxines ,Midway ,243 Camac,256 S. 12th St. ,1.0,0.0,0.25
+Maxines ,Midway ,243 Camac,256 S. 12th St. ,1.0,0.0,0.25
+Maxines ,Mystique,243 Camac,1418 Spruce ,1.0,0.0,0.25
+Maxines ,Mystique ,243 Camac,1418 Spruce ,1.0,0.0,0.25
+Maxines ,USAA ,243 Camac,204 S. Quine ,1.0,0.0,0.25
+Midway,Rusty's,256 S. 12th St. ,Quince & Walnut,1.0,0.0,0.25
+Midway,Two-Forty-Seven ,256 S. 12th St. ,247 17th St. ,1.0,0.0,0.25
+Midway,Allegro ,256 S. 12th St. ,1412 Spruce ,1.0,0.0,0.25
+Midway,Attic ,256 S. 12th St. ,5710 Germantown ,1.0,0.0,0.25
+Midway,Maxine's ,256 S. 12th St. ,243 Camac,1.0,0.0,0.25
+Midway,Mystique ,256 S. 12th St. ,1418 Spruce ,1.0,0.0,0.25
+Midway,Rusty's,256 S. 12th St. ,Quince & Walnut,1.0,0.0,0.25
+Midway,Allegro ,256 S. 12th St. ,1412 Spruce ,1.0,0.0,0.25
+Midway,Allegro ,256 S. 12th St. ,1412 Spruce ,1.0,0.0,0.25
+Midway,Attic ,256 S. 12th St. ,5710 Germantown ,1.0,0.0,0.25
+Midway,Attic ,256 S. 12th St. ,5710 Germantown,1.0,0.0,0.25
+Midway,Buddy's,256 S. 12th St. ,13th & Commerce,1.0,0.0,0.25
+Midway,Dewey's,256 S. 12th St. ,17th & Chancellor,1.0,0.0,0.25
+Midway,Deweys,256 S. 12th St. ,Chancelor at 17th St.,1.0,0.0,0.25
+Midway,Maxine's ,256 S. 12th St. ,243 Camac ,1.0,0.0,0.25
+Midway,Maxine's ,256 S. 12th St. ,243 Camac ,1.0,0.0,0.25
+Midway,Mystique,256 S. 12th St. ,1418 Spruce ,1.0,0.0,0.25
+Midway,Mystique ,256 S. 12th St. ,1418 Spruce ,1.0,0.0,0.25
+Midway,USAA ,256 S. 12th St. ,204 S. Quine ,1.0,0.0,0.25
+P.B.L. Club ,V.I.P. Club,204 S. Quince ,,0.0,0.3333333333333333,0.25
+P.B.L. Club ,V.I.P Club,204 S. Quince ,,0.0,0.3333333333333333,0.25
+Rusty's,Two-Forty-Seven ,Quince & Walnut,247 17th St. ,1.0,0.0,0.25
+Rusty's,Allegro ,Quince & Walnut,1412 Spruce ,1.0,0.0,0.25
+Rusty's,Attic ,Quince & Walnut,5710 Germantown ,1.0,0.0,0.25
+Rusty's,Maxine's ,Quince & Walnut,243 Camac,1.0,0.0,0.25
+Rusty's,Midway ,Quince & Walnut,256 S. 12th St. ,1.0,0.0,0.25
+Rusty's,Mystique ,Quince & Walnut,1418 Spruce ,1.0,0.0,0.25
+Rusty's,Allegro ,Quince & Walnut,1412 Spruce ,1.0,0.0,0.25
+Rusty's,Allegro ,Quince & Walnut,1412 Spruce ,1.0,0.0,0.25
+Rusty's,Attic ,Quince & Walnut,5710 Germantown ,1.0,0.0,0.25
+Rusty's,Attic ,Quince & Walnut,5710 Germantown,1.0,0.0,0.25
+Rusty's,Buddy's,Quince & Walnut,13th & Commerce,1.0,0.0,0.25
+Rusty's,Dewey's,Quince & Walnut,17th & Chancellor,1.0,0.0,0.25
+Rusty's,Deweys,Quince & Walnut,Chancelor at 17th St.,1.0,0.0,0.25
+Rusty's,Maxine's ,Quince & Walnut,243 Camac ,1.0,0.0,0.25
+Rusty's,Maxine's ,Quince & Walnut,243 Camac ,1.0,0.0,0.25
+Rusty's,Midway ,Quince & Walnut,256 S. 12th St. ,1.0,0.0,0.25
+Rusty's,Midway ,Quince & Walnut,256 S. 12th St. ,1.0,0.0,0.25
+Rusty's,Mystique,Quince & Walnut,1418 Spruce ,1.0,0.0,0.25
+Rusty's,Mystique ,Quince & Walnut,1418 Spruce ,1.0,0.0,0.25
+Rusty's,USAA ,Quince & Walnut,204 S. Quine ,1.0,0.0,0.25
+Two-Forty-Seven ,Allegro ,247 17th St. ,1412 Spruce ,1.0,0.0,0.25
+Two-Forty-Seven ,Attic ,247 17th St. ,5710 Germantown ,1.0,0.0,0.25
+Two-Forty-Seven ,Maxine's ,247 17th St. ,243 Camac,1.0,0.0,0.25
+Two-Forty-Seven ,Midway ,247 17th St. ,256 S. 12th St. ,1.0,0.0,0.25
+Two-Forty-Seven ,Mystique ,247 17th St. ,1418 Spruce ,1.0,0.0,0.25
+Two-Forty-Seven ,Rusty's,247 17th St. ,Quince & Walnut,1.0,0.0,0.25
+Two-Forty-Seven ,Allegro ,247 17th St. ,1412 Spruce ,1.0,0.0,0.25
+Two-Forty-Seven ,Allegro ,247 17th St. ,1412 Spruce ,1.0,0.0,0.25
+Two-Forty-Seven ,Attic ,247 17th St. ,5710 Germantown ,1.0,0.0,0.25
+Two-Forty-Seven ,Attic ,247 17th St. ,5710 Germantown,1.0,0.0,0.25
+Two-Forty-Seven ,Buddy's,247 17th St. ,13th & Commerce,1.0,0.0,0.25
+Two-Forty-Seven ,Dewey's,247 17th St. ,17th & Chancellor,1.0,0.0,0.25
+Two-Forty-Seven ,Deweys,247 17th St. ,Chancelor at 17th St.,1.0,0.0,0.25
+Two-Forty-Seven ,Maxine's ,247 17th St. ,243 Camac ,1.0,0.0,0.25
+Two-Forty-Seven ,Maxine's ,247 17th St. ,243 Camac ,1.0,0.0,0.25
+Two-Forty-Seven ,Midway ,247 17th St. ,256 S. 12th St. ,1.0,0.0,0.25
+Two-Forty-Seven ,Midway ,247 17th St. ,256 S. 12th St. ,1.0,0.0,0.25
+Two-Forty-Seven ,Mystique,247 17th St. ,1418 Spruce ,1.0,0.0,0.25
+Two-Forty-Seven ,Mystique ,247 17th St. ,1418 Spruce ,1.0,0.0,0.25
+Two-Forty-Seven ,USAA ,247 17th St. ,204 S. Quine ,1.0,0.0,0.25
+V.I.P. Club,P.B.L Club ,,204 S. Quince ,0.0,0.3333333333333333,0.25
+V.I.P. Club,PBL Club ,,204 Quince ,0.0,0.3333333333333333,0.25
+Allegro ,Attic ,1412 Spruce ,5710 Germantown ,1.0,0.0,0.25
+Allegro ,Maxine's ,1412 Spruce ,243 Camac,1.0,0.0,0.25
+Allegro ,Midway ,1412 Spruce ,256 S. 12th St. ,1.0,0.0,0.25
+Allegro ,Mystique ,1412 Spruce ,1418 Spruce ,1.0,0.0,0.25
+Allegro ,Rusty's,1412 Spruce ,Quince & Walnut,1.0,0.0,0.25
+Allegro ,Attic ,1412 Spruce ,5710 Germantown ,1.0,0.0,0.25
+Allegro ,Attic ,1412 Spruce ,5710 Germantown,1.0,0.0,0.25
+Allegro ,Buddy's,1412 Spruce ,13th & Commerce,1.0,0.0,0.25
+Allegro ,Dewey's,1412 Spruce ,17th & Chancellor,1.0,0.0,0.25
+Allegro ,Deweys,1412 Spruce ,Chancelor at 17th St.,1.0,0.0,0.25
+Allegro ,Maxine's ,1412 Spruce ,243 Camac ,1.0,0.0,0.25
+Allegro ,Maxine's ,1412 Spruce ,243 Camac ,1.0,0.0,0.25
+Allegro ,Midway ,1412 Spruce ,256 S. 12th St. ,1.0,0.0,0.25
+Allegro ,Midway ,1412 Spruce ,256 S. 12th St. ,1.0,0.0,0.25
+Allegro ,Mystique,1412 Spruce ,1418 Spruce ,1.0,0.0,0.25
+Allegro ,Mystique ,1412 Spruce ,1418 Spruce ,1.0,0.0,0.25
+Allegro ,USAA ,1412 Spruce ,204 S. Quine ,1.0,0.0,0.25
+Attic ,Maxine's ,5710 Germantown ,243 Camac,1.0,0.0,0.25
+Attic ,Midway ,5710 Germantown ,256 S. 12th St. ,1.0,0.0,0.25
+Attic ,Mystique ,5710 Germantown ,1418 Spruce ,1.0,0.0,0.25
+Attic ,Rusty's,5710 Germantown ,Quince & Walnut,1.0,0.0,0.25
+Attic ,Allegro ,5710 Germantown ,1412 Spruce ,1.0,0.0,0.25
+Attic ,Allegro ,5710 Germantown ,1412 Spruce ,1.0,0.0,0.25
+Attic ,Buddy's,5710 Germantown ,13th & Commerce,1.0,0.0,0.25
+Attic ,Dewey's,5710 Germantown ,17th & Chancellor,1.0,0.0,0.25
+Attic ,Deweys,5710 Germantown ,Chancelor at 17th St.,1.0,0.0,0.25
+Attic ,Maxine's ,5710 Germantown ,243 Camac ,1.0,0.0,0.25
+Attic ,Maxine's ,5710 Germantown ,243 Camac ,1.0,0.0,0.25
+Attic ,Midway ,5710 Germantown ,256 S. 12th St. ,1.0,0.0,0.25
+Attic ,Midway ,5710 Germantown ,256 S. 12th St. ,1.0,0.0,0.25
+Attic ,Mystique,5710 Germantown ,1418 Spruce ,1.0,0.0,0.25
+Attic ,Mystique ,5710 Germantown ,1418 Spruce ,1.0,0.0,0.25
+Attic ,USAA ,5710 Germantown ,204 S. Quine ,1.0,0.0,0.25
+Maxine's ,Midway ,243 Camac,256 S. 12th St. ,1.0,0.0,0.25
+Maxine's ,Mystique ,243 Camac,1418 Spruce ,1.0,0.0,0.25
+Maxine's ,Rusty's,243 Camac,Quince & Walnut,1.0,0.0,0.25
+Maxine's ,Allegro ,243 Camac,1412 Spruce ,1.0,0.0,0.25
+Maxine's ,Allegro ,243 Camac,1412 Spruce ,1.0,0.0,0.25
+Maxine's ,Attic ,243 Camac,5710 Germantown ,1.0,0.0,0.25
+Maxine's ,Attic ,243 Camac,5710 Germantown,1.0,0.0,0.25
+Maxine's ,Buddy's,243 Camac,13th & Commerce,1.0,0.0,0.25
+Maxine's ,Dewey's,243 Camac,17th & Chancellor,1.0,0.0,0.25
+Maxine's ,Deweys,243 Camac,Chancelor at 17th St.,1.0,0.0,0.25
+Maxine's ,Midway ,243 Camac,256 S. 12th St. ,1.0,0.0,0.25
+Maxine's ,Midway ,243 Camac,256 S. 12th St. ,1.0,0.0,0.25
+Maxine's ,Mystique,243 Camac,1418 Spruce ,1.0,0.0,0.25
+Maxine's ,Mystique ,243 Camac,1418 Spruce ,1.0,0.0,0.25
+Maxine's ,USAA ,243 Camac,204 S. Quine ,1.0,0.0,0.25
+Midway ,Mystique ,256 S. 12th St. ,1418 Spruce ,1.0,0.0,0.25
+Midway ,Rusty's,256 S. 12th St. ,Quince & Walnut,1.0,0.0,0.25
+Midway ,Allegro ,256 S. 12th St. ,1412 Spruce ,1.0,0.0,0.25
+Midway ,Allegro ,256 S. 12th St. ,1412 Spruce ,1.0,0.0,0.25
+Midway ,Attic ,256 S. 12th St. ,5710 Germantown ,1.0,0.0,0.25
+Midway ,Attic ,256 S. 12th St. ,5710 Germantown,1.0,0.0,0.25
+Midway ,Buddy's,256 S. 12th St. ,13th & Commerce,1.0,0.0,0.25
+Midway ,Dewey's,256 S. 12th St. ,17th & Chancellor,1.0,0.0,0.25
+Midway ,Deweys,256 S. 12th St. ,Chancelor at 17th St.,1.0,0.0,0.25
+Midway ,Maxine's ,256 S. 12th St. ,243 Camac ,1.0,0.0,0.25
+Midway ,Maxine's ,256 S. 12th St. ,243 Camac ,1.0,0.0,0.25
+Midway ,Mystique,256 S. 12th St. ,1418 Spruce ,1.0,0.0,0.25
+Midway ,Mystique ,256 S. 12th St. ,1418 Spruce ,1.0,0.0,0.25
+Midway ,USAA ,256 S. 12th St. ,204 S. Quine ,1.0,0.0,0.25
+Mystique ,Rusty's,1418 Spruce ,Quince & Walnut,1.0,0.0,0.25
+Mystique ,Allegro ,1418 Spruce ,1412 Spruce ,1.0,0.0,0.25
+Mystique ,Allegro ,1418 Spruce ,1412 Spruce ,1.0,0.0,0.25
+Mystique ,Attic ,1418 Spruce ,5710 Germantown ,1.0,0.0,0.25
+Mystique ,Attic ,1418 Spruce ,5710 Germantown,1.0,0.0,0.25
+Mystique ,Buddy's,1418 Spruce ,13th & Commerce,1.0,0.0,0.25
+Mystique ,Dewey's,1418 Spruce ,17th & Chancellor,1.0,0.0,0.25
+Mystique ,Deweys,1418 Spruce ,Chancelor at 17th St.,1.0,0.0,0.25
+Mystique ,Maxine's ,1418 Spruce ,243 Camac ,1.0,0.0,0.25
+Mystique ,Maxine's ,1418 Spruce ,243 Camac ,1.0,0.0,0.25
+Mystique ,Midway ,1418 Spruce ,256 S. 12th St. ,1.0,0.0,0.25
+Mystique ,Midway ,1418 Spruce ,256 S. 12th St. ,1.0,0.0,0.25
+Mystique ,USAA ,1418 Spruce ,204 S. Quine ,1.0,0.0,0.25
+P.B.L Club ,V.I.P Club,204 S. Quince ,,0.0,0.3333333333333333,0.25
+Rusty's,Allegro ,Quince & Walnut,1412 Spruce ,1.0,0.0,0.25
+Rusty's,Allegro ,Quince & Walnut,1412 Spruce ,1.0,0.0,0.25
+Rusty's,Attic ,Quince & Walnut,5710 Germantown ,1.0,0.0,0.25
+Rusty's,Attic ,Quince & Walnut,5710 Germantown,1.0,0.0,0.25
+Rusty's,Buddy's,Quince & Walnut,13th & Commerce,1.0,0.0,0.25
+Rusty's,Dewey's,Quince & Walnut,17th & Chancellor,1.0,0.0,0.25
+Rusty's,Deweys,Quince & Walnut,Chancelor at 17th St.,1.0,0.0,0.25
+Rusty's,Maxine's ,Quince & Walnut,243 Camac ,1.0,0.0,0.25
+Rusty's,Maxine's ,Quince & Walnut,243 Camac ,1.0,0.0,0.25
+Rusty's,Midway ,Quince & Walnut,256 S. 12th St. ,1.0,0.0,0.25
+Rusty's,Midway ,Quince & Walnut,256 S. 12th St. ,1.0,0.0,0.25
+Rusty's,Mystique,Quince & Walnut,1418 Spruce ,1.0,0.0,0.25
+Rusty's,Mystique ,Quince & Walnut,1418 Spruce ,1.0,0.0,0.25
+Rusty's,USAA ,Quince & Walnut,204 S. Quine ,1.0,0.0,0.25
+V.I.P Club,PBL Club ,,204 Quince ,0.0,0.3333333333333333,0.25
+Allegro ,Attic ,1412 Spruce ,5710 Germantown ,1.0,0.0,0.25
+Allegro ,Attic ,1412 Spruce ,5710 Germantown,1.0,0.0,0.25
+Allegro ,Buddy's,1412 Spruce ,13th & Commerce,1.0,0.0,0.25
+Allegro ,Dewey's,1412 Spruce ,17th & Chancellor,1.0,0.0,0.25
+Allegro ,Deweys,1412 Spruce ,Chancelor at 17th St.,1.0,0.0,0.25
+Allegro ,Maxine's ,1412 Spruce ,243 Camac ,1.0,0.0,0.25
+Allegro ,Maxine's ,1412 Spruce ,243 Camac ,1.0,0.0,0.25
+Allegro ,Midway ,1412 Spruce ,256 S. 12th St. ,1.0,0.0,0.25
+Allegro ,Midway ,1412 Spruce ,256 S. 12th St. ,1.0,0.0,0.25
+Allegro ,Mystique,1412 Spruce ,1418 Spruce ,1.0,0.0,0.25
+Allegro ,Mystique ,1412 Spruce ,1418 Spruce ,1.0,0.0,0.25
+Allegro ,USAA ,1412 Spruce ,204 S. Quine ,1.0,0.0,0.25
+Allegro ,Attic ,1412 Spruce ,5710 Germantown ,1.0,0.0,0.25
+Allegro ,Attic ,1412 Spruce ,5710 Germantown,1.0,0.0,0.25
+Allegro ,Buddy's,1412 Spruce ,13th & Commerce,1.0,0.0,0.25
+Allegro ,Dewey's,1412 Spruce ,17th & Chancellor,1.0,0.0,0.25
+Allegro ,Deweys,1412 Spruce ,Chancelor at 17th St.,1.0,0.0,0.25
+Allegro ,Maxine's ,1412 Spruce ,243 Camac ,1.0,0.0,0.25
+Allegro ,Maxine's ,1412 Spruce ,243 Camac ,1.0,0.0,0.25
+Allegro ,Midway ,1412 Spruce ,256 S. 12th St. ,1.0,0.0,0.25
+Allegro ,Midway ,1412 Spruce ,256 S. 12th St. ,1.0,0.0,0.25
+Allegro ,Mystique,1412 Spruce ,1418 Spruce ,1.0,0.0,0.25
+Allegro ,Mystique ,1412 Spruce ,1418 Spruce ,1.0,0.0,0.25
+Allegro ,USAA ,1412 Spruce ,204 S. Quine ,1.0,0.0,0.25
+Attic ,Buddy's,5710 Germantown ,13th & Commerce,1.0,0.0,0.25
+Attic ,Dewey's,5710 Germantown ,17th & Chancellor,1.0,0.0,0.25
+Attic ,Deweys,5710 Germantown ,Chancelor at 17th St.,1.0,0.0,0.25
+Attic ,Maxine's ,5710 Germantown ,243 Camac ,1.0,0.0,0.25
+Attic ,Maxine's ,5710 Germantown ,243 Camac ,1.0,0.0,0.25
+Attic ,Midway ,5710 Germantown ,256 S. 12th St. ,1.0,0.0,0.25
+Attic ,Midway ,5710 Germantown ,256 S. 12th St. ,1.0,0.0,0.25
+Attic ,Mystique,5710 Germantown ,1418 Spruce ,1.0,0.0,0.25
+Attic ,Mystique ,5710 Germantown ,1418 Spruce ,1.0,0.0,0.25
+Attic ,USAA ,5710 Germantown ,204 S. Quine ,1.0,0.0,0.25
+Attic ,Buddy's,5710 Germantown,13th & Commerce,1.0,0.0,0.25
+Attic ,Dewey's,5710 Germantown,17th & Chancellor,1.0,0.0,0.25
+Attic ,Deweys,5710 Germantown,Chancelor at 17th St.,1.0,0.0,0.25
+Attic ,Maxine's ,5710 Germantown,243 Camac ,1.0,0.0,0.25
+Attic ,Maxine's ,5710 Germantown,243 Camac ,1.0,0.0,0.25
+Attic ,Midway ,5710 Germantown,256 S. 12th St. ,1.0,0.0,0.25
+Attic ,Midway ,5710 Germantown,256 S. 12th St. ,1.0,0.0,0.25
+Attic ,Mystique,5710 Germantown,1418 Spruce ,1.0,0.0,0.25
+Attic ,Mystique ,5710 Germantown,1418 Spruce ,1.0,0.0,0.25
+Attic ,USAA ,5710 Germantown,204 S. Quine ,1.0,0.0,0.25
+Buddy's,Dewey's,13th & Commerce,17th & Chancellor,1.0,0.0,0.25
+Buddy's,Deweys,13th & Commerce,Chancelor at 17th St.,1.0,0.0,0.25
+Buddy's,Maxine's ,13th & Commerce,243 Camac ,1.0,0.0,0.25
+Buddy's,Maxine's ,13th & Commerce,243 Camac ,1.0,0.0,0.25
+Buddy's,Midway ,13th & Commerce,256 S. 12th St. ,1.0,0.0,0.25
+Buddy's,Midway ,13th & Commerce,256 S. 12th St. ,1.0,0.0,0.25
+Buddy's,Mystique,13th & Commerce,1418 Spruce ,1.0,0.0,0.25
+Buddy's,Mystique ,13th & Commerce,1418 Spruce ,1.0,0.0,0.25
+Buddy's,USAA ,13th & Commerce,204 S. Quine ,1.0,0.0,0.25
+Dewey's,Maxine's ,17th & Chancellor,243 Camac ,1.0,0.0,0.25
+Dewey's,Maxine's ,17th & Chancellor,243 Camac ,1.0,0.0,0.25
+Dewey's,Midway ,17th & Chancellor,256 S. 12th St. ,1.0,0.0,0.25
+Dewey's,Midway ,17th & Chancellor,256 S. 12th St. ,1.0,0.0,0.25
+Dewey's,Mystique,17th & Chancellor,1418 Spruce ,1.0,0.0,0.25
+Dewey's,Mystique ,17th & Chancellor,1418 Spruce ,1.0,0.0,0.25
+Dewey's,USAA ,17th & Chancellor,204 S. Quine ,1.0,0.0,0.25
+Deweys,Maxine's ,Chancelor at 17th St.,243 Camac ,1.0,0.0,0.25
+Deweys,Maxine's ,Chancelor at 17th St.,243 Camac ,1.0,0.0,0.25
+Deweys,Midway ,Chancelor at 17th St.,256 S. 12th St. ,1.0,0.0,0.25
+Deweys,Midway ,Chancelor at 17th St.,256 S. 12th St. ,1.0,0.0,0.25
+Deweys,Mystique,Chancelor at 17th St.,1418 Spruce ,1.0,0.0,0.25
+Deweys,Mystique ,Chancelor at 17th St.,1418 Spruce ,1.0,0.0,0.25
+Deweys,USAA ,Chancelor at 17th St.,204 S. Quine ,1.0,0.0,0.25
+Maxine's ,Midway ,243 Camac ,256 S. 12th St. ,1.0,0.0,0.25
+Maxine's ,Midway ,243 Camac ,256 S. 12th St. ,1.0,0.0,0.25
+Maxine's ,Mystique,243 Camac ,1418 Spruce ,1.0,0.0,0.25
+Maxine's ,Mystique ,243 Camac ,1418 Spruce ,1.0,0.0,0.25
+Maxine's ,USAA ,243 Camac ,204 S. Quine ,1.0,0.0,0.25
+Maxine's ,Midway ,243 Camac ,256 S. 12th St. ,1.0,0.0,0.25
+Maxine's ,Midway ,243 Camac ,256 S. 12th St. ,1.0,0.0,0.25
+Maxine's ,Mystique,243 Camac ,1418 Spruce ,1.0,0.0,0.25
+Maxine's ,Mystique ,243 Camac ,1418 Spruce ,1.0,0.0,0.25
+Maxine's ,USAA ,243 Camac ,204 S. Quine ,1.0,0.0,0.25
+Midway ,Mystique,256 S. 12th St. ,1418 Spruce ,1.0,0.0,0.25
+Midway ,Mystique ,256 S. 12th St. ,1418 Spruce ,1.0,0.0,0.25
+Midway ,USAA ,256 S. 12th St. ,204 S. Quine ,1.0,0.0,0.25
+Midway ,Mystique,256 S. 12th St. ,1418 Spruce ,1.0,0.0,0.25
+Midway ,Mystique ,256 S. 12th St. ,1418 Spruce ,1.0,0.0,0.25
+Midway ,USAA ,256 S. 12th St. ,204 S. Quine ,1.0,0.0,0.25
+Mystique,USAA ,1418 Spruce ,204 S. Quine ,1.0,0.0,0.25
+Mystique ,USAA ,1418 Spruce ,204 S. Quine ,1.0,0.0,0.25
+Spruce St. from 11th to 21st,Spruce St. from Broad St. to area of Rittenhouse Square,,,0.16666666666666666,0.2631578947368421,0.23903508771929824
