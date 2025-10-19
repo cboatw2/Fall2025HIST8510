@@ -67,14 +67,6 @@ venv.bak/
 .RData
 .Ruserdata
 
-# Output files (CSV results, plots, etc.)
-*.csv
-*.png
-*.jpg
-*.jpeg
-*.pdf
-*.svg
-*.html
 
 # Log files
 *.log
