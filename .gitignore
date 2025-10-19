@@ -21,5 +21,70 @@ Icon?
 # macOS volume info
 .VolumeIcon.icns
 
+# Python cache files and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# R cache files
+.Rhistory
+.RData
+.Ruserdata
+
+# Output files (CSV results, plots, etc.)
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+*.html
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store?
+
+# Project-specific exclusions
 Word-Vector-Alignment/txt/*
 Word-Vector-Alignment/word_vector_env/*
