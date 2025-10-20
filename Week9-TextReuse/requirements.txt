@@ -1,0 +1,2 @@
+# For n-grams and Jaccard similarity analysis
+# Basic Python libraries only - no heavy dependencies
