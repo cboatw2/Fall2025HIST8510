@@ -1,0 +1,26 @@
+[
+  {
+    "x": 405,
+    "y": 452,
+    "w": 1098,
+    "h": 1321,
+    "area": 1450458,
+    "area_ratio": 0.3290838204504801,
+    "fill_ratio": 0.563,
+    "aspect_ratio": 0.83,
+    "label": "text_block",
+    "reading_order": 1
+  },
+  {
+    "x": 309,
+    "y": 1901,
+    "w": 1201,
+    "h": 464,
+    "area": 557264,
+    "area_ratio": 0.126433558310214,
+    "fill_ratio": 0.5941,
+    "aspect_ratio": 2.59,
+    "label": "text_block",
+    "reading_order": 2
+  }
+]

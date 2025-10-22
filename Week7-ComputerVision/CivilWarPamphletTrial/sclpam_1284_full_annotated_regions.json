@@ -1,0 +1,122 @@
+[
+  {
+    "x": 771,
+    "y": 269,
+    "w": 511,
+    "h": 211,
+    "area": 107821,
+    "area_ratio": 0.024203320372038983,
+    "fill_ratio": 0.2357,
+    "aspect_ratio": 2.42,
+    "label": "text_block",
+    "reading_order": 1
+  },
+  {
+    "x": 323,
+    "y": 334,
+    "w": 294,
+    "h": 141,
+    "area": 41454,
+    "area_ratio": 0.009305464081231894,
+    "fill_ratio": 0.3712,
+    "aspect_ratio": 2.09,
+    "label": "text_block",
+    "reading_order": 2
+  },
+  {
+    "x": 198,
+    "y": 390,
+    "w": 137,
+    "h": 167,
+    "area": 22879,
+    "area_ratio": 0.005135806260300683,
+    "fill_ratio": 0.3845,
+    "aspect_ratio": 0.82,
+    "label": "text_block",
+    "reading_order": 3
+  },
+  {
+    "x": 1267,
+    "y": 448,
+    "w": 86,
+    "h": 67,
+    "area": 5762,
+    "area_ratio": 0.0012934357127432376,
+    "fill_ratio": 0.6201,
+    "aspect_ratio": 1.28,
+    "label": "text_block",
+    "reading_order": 4
+  },
+  {
+    "x": 470,
+    "y": 603,
+    "w": 769,
+    "h": 1456,
+    "area": 1119664,
+    "area_ratio": 0.25133866780162173,
+    "fill_ratio": 0.3863,
+    "aspect_ratio": 0.53,
+    "label": "text_block",
+    "reading_order": 5
+  },
+  {
+    "x": 203,
+    "y": 914,
+    "w": 169,
+    "h": 71,
+    "area": 11999,
+    "area_ratio": 0.002693497937731015,
+    "fill_ratio": 0.7669,
+    "aspect_ratio": 2.38,
+    "label": "text_block",
+    "reading_order": 6
+  },
+  {
+    "x": 1150,
+    "y": 906,
+    "w": 187,
+    "h": 84,
+    "area": 15708,
+    "area_ratio": 0.0035260826407099576,
+    "fill_ratio": 0.6795,
+    "aspect_ratio": 2.23,
+    "label": "text_block",
+    "reading_order": 7
+  },
+  {
+    "x": 1132,
+    "y": 1102,
+    "w": 213,
+    "h": 45,
+    "area": 9585,
+    "area_ratio": 0.0021516107786608697,
+    "fill_ratio": 0.6291,
+    "aspect_ratio": 4.73,
+    "label": "text_block",
+    "reading_order": 8
+  },
+  {
+    "x": 301,
+    "y": 2011,
+    "w": 143,
+    "h": 47,
+    "area": 6721,
+    "area_ratio": 0.001508709029043266,
+    "fill_ratio": 0.8161,
+    "aspect_ratio": 3.04,
+    "label": "text_block",
+    "reading_order": 9
+  },
+  {
+    "x": 337,
+    "y": 2109,
+    "w": 870,
+    "h": 288,
+    "area": 250560,
+    "area_ratio": 0.05624492401682499,
+    "fill_ratio": 0.2739,
+    "aspect_ratio": 3.02,
+    "label": "text_block",
+    "reading_order": 10
+  }
+]

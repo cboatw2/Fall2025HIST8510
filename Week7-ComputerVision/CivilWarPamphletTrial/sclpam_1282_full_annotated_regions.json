@@ -1,0 +1,38 @@
+[
+  {
+    "x": 522,
+    "y": 134,
+    "w": 544,
+    "h": 68,
+    "area": 36992,
+    "area_ratio": 0.0082116415646871,
+    "fill_ratio": 0.5693,
+    "aspect_ratio": 8.0,
+    "label": "headline",
+    "reading_order": 1
+  },
+  {
+    "x": 0,
+    "y": 230,
+    "w": 1621,
+    "h": 2241,
+    "area": 3632661,
+    "area_ratio": 0.806393546118561,
+    "fill_ratio": 0.6065,
+    "aspect_ratio": 0.72,
+    "label": "text_block",
+    "reading_order": 2
+  },
+  {
+    "x": 1329,
+    "y": 727,
+    "w": 98,
+    "h": 116,
+    "area": 11368,
+    "area_ratio": 0.002523517011985374,
+    "fill_ratio": 0.1714,
+    "aspect_ratio": 0.84,
+    "label": "text_block",
+    "reading_order": 3
+  }
+]

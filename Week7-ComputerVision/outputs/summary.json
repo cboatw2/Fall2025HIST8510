@@ -1,0 +1,57 @@
+[
+  {
+    "file": "sclpam_1282_full.jpg",
+    "page_type": "drawing",
+    "stats": {
+      "edge_density": 0.06432015989969864,
+      "sw_mean": 4.758337020874023,
+      "sw_std": 4.690638065338135
+    },
+    "n_sections": 0,
+    "n_boxes": 27
+  },
+  {
+    "file": "sclpam_1283_full.jpg",
+    "page_type": "drawing",
+    "stats": {
+      "edge_density": 0.04938563026092104,
+      "sw_mean": 1.6478524208068848,
+      "sw_std": 0.8825225830078125
+    },
+    "n_sections": 0,
+    "n_boxes": 1
+  },
+  {
+    "file": "sclpam_1284_full.jpg",
+    "page_type": "drawing",
+    "stats": {
+      "edge_density": 0.02468168057749817,
+      "sw_mean": 7.708621978759766,
+      "sw_std": 9.060072898864746
+    },
+    "n_sections": 0,
+    "n_boxes": 162
+  },
+  {
+    "file": "sclpam_1285_full.jpg",
+    "page_type": "drawing",
+    "stats": {
+      "edge_density": 0.044981536286256986,
+      "sw_mean": 1.437077522277832,
+      "sw_std": 0.6757420897483826
+    },
+    "n_sections": 0,
+    "n_boxes": 57
+  },
+  {
+    "file": "sclpam_1286_full.jpg",
+    "page_type": "drawing",
+    "stats": {
+      "edge_density": 0.02576736904871278,
+      "sw_mean": 1.5397913455963135,
+      "sw_std": 1.212423324584961
+    },
+    "n_sections": 0,
+    "n_boxes": 89
+  }
+]

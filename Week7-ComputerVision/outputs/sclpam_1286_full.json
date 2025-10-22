@@ -1,0 +1,1430 @@
+{
+  "page_type": "drawing",
+  "sections": [],
+  "boxes": [
+    {
+      "id": 1,
+      "label": "text",
+      "bbox": {
+        "x": 0,
+        "y": 0,
+        "w": 166,
+        "h": 372
+      },
+      "stats": {
+        "edge_density": 0.0026072030055706696,
+        "ink_frac": 0.0751068791294209,
+        "aspect": 0.44623655913978494
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b1_text.jpg"
+    },
+    {
+      "id": 2,
+      "label": "image",
+      "bbox": {
+        "x": 250,
+        "y": 0,
+        "w": 60,
+        "h": 26
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.4064102564102564,
+        "aspect": 2.3076923076923075
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b2_image.jpg"
+    },
+    {
+      "id": 3,
+      "label": "image",
+      "bbox": {
+        "x": 162,
+        "y": 28,
+        "w": 68,
+        "h": 31
+      },
+      "stats": {
+        "edge_density": 0.007115749525616698,
+        "ink_frac": 0.1532258064516129,
+        "aspect": 2.193548387096774
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b3_image.jpg"
+    },
+    {
+      "id": 4,
+      "label": "image",
+      "bbox": {
+        "x": 1616,
+        "y": 52,
+        "w": 51,
+        "h": 49
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.19327731092436976,
+        "aspect": 1.0408163265306123
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b4_image.jpg"
+    },
+    {
+      "id": 5,
+      "label": "image",
+      "bbox": {
+        "x": 36,
+        "y": 78,
+        "w": 51,
+        "h": 22
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.4393939393939394,
+        "aspect": 2.3181818181818183
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b5_image.jpg"
+    },
+    {
+      "id": 6,
+      "label": "image",
+      "bbox": {
+        "x": 34,
+        "y": 102,
+        "w": 52,
+        "h": 21
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.3507326007326007,
+        "aspect": 2.4761904761904763
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b6_image.jpg"
+    },
+    {
+      "id": 7,
+      "label": "text",
+      "bbox": {
+        "x": 1474,
+        "y": 115,
+        "w": 52,
+        "h": 24
+      },
+      "stats": {
+        "edge_density": 0.011217948717948718,
+        "ink_frac": 0.01842948717948718,
+        "aspect": 2.1666666666666665
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b7_text.jpg"
+    },
+    {
+      "id": 8,
+      "label": "image",
+      "bbox": {
+        "x": 146,
+        "y": 150,
+        "w": 73,
+        "h": 20
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.2650684931506849,
+        "aspect": 3.65
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b8_image.jpg"
+    },
+    {
+      "id": 9,
+      "label": "image",
+      "bbox": {
+        "x": 249,
+        "y": 197,
+        "w": 89,
+        "h": 29
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.46532351801627275,
+        "aspect": 3.0689655172413794
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b9_image.jpg"
+    },
+    {
+      "id": 10,
+      "label": "text",
+      "bbox": {
+        "x": 166,
+        "y": 215,
+        "w": 37,
+        "h": 21
+      },
+      "stats": {
+        "edge_density": 0.02445302445302445,
+        "ink_frac": 0.055341055341055344,
+        "aspect": 1.7619047619047619
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b10_text.jpg"
+    },
+    {
+      "id": 11,
+      "label": "image",
+      "bbox": {
+        "x": 282,
+        "y": 436,
+        "w": 94,
+        "h": 36
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.23433806146572103,
+        "aspect": 2.611111111111111
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b11_image.jpg"
+    },
+    {
+      "id": 12,
+      "label": "image",
+      "bbox": {
+        "x": 427,
+        "y": 440,
+        "w": 89,
+        "h": 20
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.400561797752809,
+        "aspect": 4.45
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b12_image.jpg"
+    },
+    {
+      "id": 13,
+      "label": "image",
+      "bbox": {
+        "x": 0,
+        "y": 444,
+        "w": 47,
+        "h": 24
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.3324468085106383,
+        "aspect": 1.9583333333333333
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b13_image.jpg"
+    },
+    {
+      "id": 14,
+      "label": "text",
+      "bbox": {
+        "x": 0,
+        "y": 464,
+        "w": 44,
+        "h": 33
+      },
+      "stats": {
+        "edge_density": 0.0337465564738292,
+        "ink_frac": 0.0337465564738292,
+        "aspect": 1.3333333333333333
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b14_text.jpg"
+    },
+    {
+      "id": 15,
+      "label": "image",
+      "bbox": {
+        "x": 410,
+        "y": 476,
+        "w": 68,
+        "h": 20
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.43161764705882355,
+        "aspect": 3.4
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b15_image.jpg"
+    },
+    {
+      "id": 16,
+      "label": "image",
+      "bbox": {
+        "x": 566,
+        "y": 512,
+        "w": 96,
+        "h": 21
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.4375,
+        "aspect": 4.571428571428571
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b16_image.jpg"
+    },
+    {
+      "id": 17,
+      "label": "image",
+      "bbox": {
+        "x": 330,
+        "y": 535,
+        "w": 347,
+        "h": 92
+      },
+      "stats": {
+        "edge_density": 0.06274276406465355,
+        "ink_frac": 0.16736624483147475,
+        "aspect": 3.7717391304347827
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b17_image.jpg"
+    },
+    {
+      "id": 18,
+      "label": "image",
+      "bbox": {
+        "x": 698,
+        "y": 535,
+        "w": 514,
+        "h": 93
+      },
+      "stats": {
+        "edge_density": 0.06326095142462658,
+        "ink_frac": 0.17080875277185056,
+        "aspect": 5.526881720430108
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b18_image.jpg"
+    },
+    {
+      "id": 19,
+      "label": "image",
+      "bbox": {
+        "x": 1342,
+        "y": 682,
+        "w": 41,
+        "h": 24
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.1443089430894309,
+        "aspect": 1.7083333333333333
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b19_image.jpg"
+    },
+    {
+      "id": 20,
+      "label": "image",
+      "bbox": {
+        "x": 726,
+        "y": 683,
+        "w": 94,
+        "h": 51
+      },
+      "stats": {
+        "edge_density": 0.08677513558614935,
+        "ink_frac": 0.14038381309970796,
+        "aspect": 1.8431372549019607
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b20_image.jpg"
+    },
+    {
+      "id": 21,
+      "label": "image",
+      "bbox": {
+        "x": 822,
+        "y": 684,
+        "w": 57,
+        "h": 20
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.2578947368421053,
+        "aspect": 2.85
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b21_image.jpg"
+    },
+    {
+      "id": 22,
+      "label": "image",
+      "bbox": {
+        "x": 495,
+        "y": 774,
+        "w": 515,
+        "h": 98
+      },
+      "stats": {
+        "edge_density": 0.05520110957004161,
+        "ink_frac": 0.13300970873786408,
+        "aspect": 5.255102040816326
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b22_image.jpg"
+    },
+    {
+      "id": 23,
+      "label": "text",
+      "bbox": {
+        "x": 986,
+        "y": 781,
+        "w": 74,
+        "h": 46
+      },
+      "stats": {
+        "edge_density": 0.0481786133960047,
+        "ink_frac": 0.07109283196239718,
+        "aspect": 1.608695652173913
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b23_text.jpg"
+    },
+    {
+      "id": 24,
+      "label": "image",
+      "bbox": {
+        "x": 217,
+        "y": 806,
+        "w": 58,
+        "h": 20
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.38275862068965516,
+        "aspect": 2.9
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b24_image.jpg"
+    },
+    {
+      "id": 25,
+      "label": "image",
+      "bbox": {
+        "x": 622,
+        "y": 873,
+        "w": 54,
+        "h": 21
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.14462081128747795,
+        "aspect": 2.5714285714285716
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b25_image.jpg"
+    },
+    {
+      "id": 26,
+      "label": "image",
+      "bbox": {
+        "x": 262,
+        "y": 919,
+        "w": 40,
+        "h": 21
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.4011904761904762,
+        "aspect": 1.9047619047619047
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b26_image.jpg"
+    },
+    {
+      "id": 27,
+      "label": "text",
+      "bbox": {
+        "x": 153,
+        "y": 953,
+        "w": 58,
+        "h": 22
+      },
+      "stats": {
+        "edge_density": 0.034482758620689655,
+        "ink_frac": 0.05956112852664577,
+        "aspect": 2.6363636363636362
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b27_text.jpg"
+    },
+    {
+      "id": 28,
+      "label": "image",
+      "bbox": {
+        "x": 864,
+        "y": 990,
+        "w": 206,
+        "h": 58
+      },
+      "stats": {
+        "edge_density": 0.06628724472715099,
+        "ink_frac": 0.08704385671242049,
+        "aspect": 3.5517241379310347
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b28_image.jpg"
+    },
+    {
+      "id": 29,
+      "label": "image",
+      "bbox": {
+        "x": 164,
+        "y": 994,
+        "w": 122,
+        "h": 41
+      },
+      "stats": {
+        "edge_density": 0.08556577369052379,
+        "ink_frac": 0.0977608956417433,
+        "aspect": 2.975609756097561
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b29_image.jpg"
+    },
+    {
+      "id": 30,
+      "label": "image",
+      "bbox": {
+        "x": 509,
+        "y": 994,
+        "w": 297,
+        "h": 48
+      },
+      "stats": {
+        "edge_density": 0.1074635241301908,
+        "ink_frac": 0.13867845117845118,
+        "aspect": 6.1875
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b30_image.jpg"
+    },
+    {
+      "id": 31,
+      "label": "image",
+      "bbox": {
+        "x": 810,
+        "y": 996,
+        "w": 61,
+        "h": 41
+      },
+      "stats": {
+        "edge_density": 0.08636545381847262,
+        "ink_frac": 0.1095561775289884,
+        "aspect": 1.4878048780487805
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b31_image.jpg"
+    },
+    {
+      "id": 32,
+      "label": "image",
+      "bbox": {
+        "x": 1240,
+        "y": 999,
+        "w": 100,
+        "h": 40
+      },
+      "stats": {
+        "edge_density": 0.09775,
+        "ink_frac": 0.12725,
+        "aspect": 2.5
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b32_image.jpg"
+    },
+    {
+      "id": 33,
+      "label": "text",
+      "bbox": {
+        "x": 288,
+        "y": 1003,
+        "w": 52,
+        "h": 31
+      },
+      "stats": {
+        "edge_density": 0.04838709677419355,
+        "ink_frac": 0.07568238213399504,
+        "aspect": 1.6774193548387097
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b33_text.jpg"
+    },
+    {
+      "id": 34,
+      "label": "text",
+      "bbox": {
+        "x": 1341,
+        "y": 1008,
+        "w": 40,
+        "h": 31
+      },
+      "stats": {
+        "edge_density": 0.05403225806451613,
+        "ink_frac": 0.09112903225806451,
+        "aspect": 1.2903225806451613
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b34_text.jpg"
+    },
+    {
+      "id": 35,
+      "label": "image",
+      "bbox": {
+        "x": 162,
+        "y": 1046,
+        "w": 1224,
+        "h": 40
+      },
+      "stats": {
+        "edge_density": 0.09779411764705882,
+        "ink_frac": 0.1133374183006536,
+        "aspect": 30.6
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b35_image.jpg"
+    },
+    {
+      "id": 36,
+      "label": "image",
+      "bbox": {
+        "x": 562,
+        "y": 1111,
+        "w": 422,
+        "h": 43
+      },
+      "stats": {
+        "edge_density": 0.11545244130937948,
+        "ink_frac": 0.1422903119144715,
+        "aspect": 9.813953488372093
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b36_image.jpg"
+    },
+    {
+      "id": 37,
+      "label": "image",
+      "bbox": {
+        "x": 588,
+        "y": 1169,
+        "w": 53,
+        "h": 21
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.27313566936208444,
+        "aspect": 2.5238095238095237
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b37_image.jpg"
+    },
+    {
+      "id": 38,
+      "label": "image",
+      "bbox": {
+        "x": 253,
+        "y": 1194,
+        "w": 506,
+        "h": 49
+      },
+      "stats": {
+        "edge_density": 0.08909413567798662,
+        "ink_frac": 0.12507058159232073,
+        "aspect": 10.326530612244898
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b38_image.jpg"
+    },
+    {
+      "id": 39,
+      "label": "image",
+      "bbox": {
+        "x": 760,
+        "y": 1199,
+        "w": 565,
+        "h": 41
+      },
+      "stats": {
+        "edge_density": 0.10282754154975178,
+        "ink_frac": 0.1307144398877617,
+        "aspect": 13.78048780487805
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b39_image.jpg"
+    },
+    {
+      "id": 40,
+      "label": "image",
+      "bbox": {
+        "x": 1325,
+        "y": 1201,
+        "w": 54,
+        "h": 39
+      },
+      "stats": {
+        "edge_density": 0.08214624881291548,
+        "ink_frac": 0.11728395061728394,
+        "aspect": 1.3846153846153846
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b40_image.jpg"
+    },
+    {
+      "id": 41,
+      "label": "image",
+      "bbox": {
+        "x": 0,
+        "y": 1224,
+        "w": 55,
+        "h": 45
+      },
+      "stats": {
+        "edge_density": 0.020606060606060607,
+        "ink_frac": 0.20767676767676768,
+        "aspect": 1.2222222222222223
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b41_image.jpg"
+    },
+    {
+      "id": 42,
+      "label": "image",
+      "bbox": {
+        "x": 168,
+        "y": 1255,
+        "w": 1211,
+        "h": 58
+      },
+      "stats": {
+        "edge_density": 0.0805262108829978,
+        "ink_frac": 0.10586861812693983,
+        "aspect": 20.879310344827587
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b42_image.jpg"
+    },
+    {
+      "id": 43,
+      "label": "image",
+      "bbox": {
+        "x": 159,
+        "y": 1316,
+        "w": 944,
+        "h": 59
+      },
+      "stats": {
+        "edge_density": 0.07472708991669061,
+        "ink_frac": 0.09835535765584602,
+        "aspect": 16.0
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b43_image.jpg"
+    },
+    {
+      "id": 44,
+      "label": "image",
+      "bbox": {
+        "x": 253,
+        "y": 1376,
+        "w": 1126,
+        "h": 52
+      },
+      "stats": {
+        "edge_density": 0.08693127476431206,
+        "ink_frac": 0.11234458259325045,
+        "aspect": 21.653846153846153
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b44_image.jpg"
+    },
+    {
+      "id": 45,
+      "label": "image",
+      "bbox": {
+        "x": 168,
+        "y": 1436,
+        "w": 681,
+        "h": 43
+      },
+      "stats": {
+        "edge_density": 0.10214117406003483,
+        "ink_frac": 0.13533449441655568,
+        "aspect": 15.837209302325581
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b45_image.jpg"
+    },
+    {
+      "id": 46,
+      "label": "image",
+      "bbox": {
+        "x": 865,
+        "y": 1440,
+        "w": 516,
+        "h": 58
+      },
+      "stats": {
+        "edge_density": 0.08015904838278536,
+        "ink_frac": 0.10665597433841219,
+        "aspect": 8.89655172413793
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b46_image.jpg"
+    },
+    {
+      "id": 47,
+      "label": "image",
+      "bbox": {
+        "x": 167,
+        "y": 1497,
+        "w": 781,
+        "h": 50
+      },
+      "stats": {
+        "edge_density": 0.08758002560819463,
+        "ink_frac": 0.11743918053777208,
+        "aspect": 15.62
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b47_image.jpg"
+    },
+    {
+      "id": 48,
+      "label": "image",
+      "bbox": {
+        "x": 0,
+        "y": 1500,
+        "w": 52,
+        "h": 23
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.3110367892976589,
+        "aspect": 2.260869565217391
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b48_image.jpg"
+    },
+    {
+      "id": 49,
+      "label": "image",
+      "bbox": {
+        "x": 951,
+        "y": 1501,
+        "w": 427,
+        "h": 48
+      },
+      "stats": {
+        "edge_density": 0.09645784543325527,
+        "ink_frac": 0.12402419984387197,
+        "aspect": 8.895833333333334
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b49_image.jpg"
+    },
+    {
+      "id": 50,
+      "label": "image",
+      "bbox": {
+        "x": 167,
+        "y": 1556,
+        "w": 911,
+        "h": 51
+      },
+      "stats": {
+        "edge_density": 0.09136695292826241,
+        "ink_frac": 0.1180560039603108,
+        "aspect": 17.862745098039216
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b50_image.jpg"
+    },
+    {
+      "id": 51,
+      "label": "image",
+      "bbox": {
+        "x": 1076,
+        "y": 1561,
+        "w": 303,
+        "h": 48
+      },
+      "stats": {
+        "edge_density": 0.08292079207920793,
+        "ink_frac": 0.10891089108910891,
+        "aspect": 6.3125
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b51_image.jpg"
+    },
+    {
+      "id": 52,
+      "label": "image",
+      "bbox": {
+        "x": 2,
+        "y": 1563,
+        "w": 37,
+        "h": 23
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.5746180963572268,
+        "aspect": 1.608695652173913
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b52_image.jpg"
+    },
+    {
+      "id": 53,
+      "label": "image",
+      "bbox": {
+        "x": 463,
+        "y": 1614,
+        "w": 781,
+        "h": 53
+      },
+      "stats": {
+        "edge_density": 0.08078660643103906,
+        "ink_frac": 0.10673302249172566,
+        "aspect": 14.735849056603774
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b53_image.jpg"
+    },
+    {
+      "id": 54,
+      "label": "image",
+      "bbox": {
+        "x": 168,
+        "y": 1617,
+        "w": 296,
+        "h": 48
+      },
+      "stats": {
+        "edge_density": 0.09860641891891891,
+        "ink_frac": 0.12697072072072071,
+        "aspect": 6.166666666666667
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b54_image.jpg"
+    },
+    {
+      "id": 55,
+      "label": "image",
+      "bbox": {
+        "x": 1253,
+        "y": 1632,
+        "w": 126,
+        "h": 37
+      },
+      "stats": {
+        "edge_density": 0.10703560703560704,
+        "ink_frac": 0.1364221364221364,
+        "aspect": 3.4054054054054053
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b55_image.jpg"
+    },
+    {
+      "id": 56,
+      "label": "image",
+      "bbox": {
+        "x": 166,
+        "y": 1675,
+        "w": 1213,
+        "h": 54
+      },
+      "stats": {
+        "edge_density": 0.08769197887087417,
+        "ink_frac": 0.11642392598699276,
+        "aspect": 22.462962962962962
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b56_image.jpg"
+    },
+    {
+      "id": 57,
+      "label": "image",
+      "bbox": {
+        "x": 167,
+        "y": 1735,
+        "w": 112,
+        "h": 39
+      },
+      "stats": {
+        "edge_density": 0.11217948717948718,
+        "ink_frac": 0.14583333333333334,
+        "aspect": 2.871794871794872
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b57_image.jpg"
+    },
+    {
+      "id": 58,
+      "label": "image",
+      "bbox": {
+        "x": 280,
+        "y": 1736,
+        "w": 62,
+        "h": 39
+      },
+      "stats": {
+        "edge_density": 0.08602150537634409,
+        "ink_frac": 0.1141439205955335,
+        "aspect": 1.5897435897435896
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b58_image.jpg"
+    },
+    {
+      "id": 59,
+      "label": "image",
+      "bbox": {
+        "x": 342,
+        "y": 1737,
+        "w": 336,
+        "h": 48
+      },
+      "stats": {
+        "edge_density": 0.09368799603174603,
+        "ink_frac": 0.12382192460317461,
+        "aspect": 7.0
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b59_image.jpg"
+    },
+    {
+      "id": 60,
+      "label": "image",
+      "bbox": {
+        "x": 680,
+        "y": 1738,
+        "w": 231,
+        "h": 48
+      },
+      "stats": {
+        "edge_density": 0.10218253968253968,
+        "ink_frac": 0.13365800865800867,
+        "aspect": 4.8125
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b60_image.jpg"
+    },
+    {
+      "id": 61,
+      "label": "image",
+      "bbox": {
+        "x": 911,
+        "y": 1739,
+        "w": 164,
+        "h": 39
+      },
+      "stats": {
+        "edge_density": 0.11976235146966854,
+        "ink_frac": 0.15494058786741713,
+        "aspect": 4.205128205128205
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b61_image.jpg"
+    },
+    {
+      "id": 62,
+      "label": "image",
+      "bbox": {
+        "x": 1076,
+        "y": 1740,
+        "w": 82,
+        "h": 39
+      },
+      "stats": {
+        "edge_density": 0.09662288930581614,
+        "ink_frac": 0.124765478424015,
+        "aspect": 2.1025641025641026
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b62_image.jpg"
+    },
+    {
+      "id": 63,
+      "label": "image",
+      "bbox": {
+        "x": 1159,
+        "y": 1740,
+        "w": 220,
+        "h": 39
+      },
+      "stats": {
+        "edge_density": 0.10606060606060606,
+        "ink_frac": 0.14358974358974358,
+        "aspect": 5.641025641025641
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b63_image.jpg"
+    },
+    {
+      "id": 64,
+      "label": "image",
+      "bbox": {
+        "x": 0,
+        "y": 1778,
+        "w": 41,
+        "h": 44
+      },
+      "stats": {
+        "edge_density": 0.012195121951219513,
+        "ink_frac": 0.3869179600886918,
+        "aspect": 0.9318181818181818
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b64_image.jpg"
+    },
+    {
+      "id": 65,
+      "label": "image",
+      "bbox": {
+        "x": 167,
+        "y": 1794,
+        "w": 777,
+        "h": 48
+      },
+      "stats": {
+        "edge_density": 0.0897951522951523,
+        "ink_frac": 0.11333655083655084,
+        "aspect": 16.1875
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b65_image.jpg"
+    },
+    {
+      "id": 66,
+      "label": "image",
+      "bbox": {
+        "x": 994,
+        "y": 1810,
+        "w": 44,
+        "h": 26
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.2534965034965035,
+        "aspect": 1.6923076923076923
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b66_image.jpg"
+    },
+    {
+      "id": 67,
+      "label": "image",
+      "bbox": {
+        "x": 250,
+        "y": 1852,
+        "w": 1129,
+        "h": 55
+      },
+      "stats": {
+        "edge_density": 0.0888316289556325,
+        "ink_frac": 0.11587084306304855,
+        "aspect": 20.527272727272727
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b67_image.jpg"
+    },
+    {
+      "id": 68,
+      "label": "image",
+      "bbox": {
+        "x": 1617,
+        "y": 1878,
+        "w": 30,
+        "h": 22
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.37727272727272726,
+        "aspect": 1.3636363636363635
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b68_image.jpg"
+    },
+    {
+      "id": 69,
+      "label": "image",
+      "bbox": {
+        "x": 1072,
+        "y": 1900,
+        "w": 39,
+        "h": 21
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.21001221001221002,
+        "aspect": 1.8571428571428572
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b69_image.jpg"
+    },
+    {
+      "id": 70,
+      "label": "image",
+      "bbox": {
+        "x": 167,
+        "y": 1908,
+        "w": 1212,
+        "h": 58
+      },
+      "stats": {
+        "edge_density": 0.0781125526345738,
+        "ink_frac": 0.09987766017981109,
+        "aspect": 20.896551724137932
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b70_image.jpg"
+    },
+    {
+      "id": 71,
+      "label": "image",
+      "bbox": {
+        "x": 167,
+        "y": 1970,
+        "w": 1211,
+        "h": 56
+      },
+      "stats": {
+        "edge_density": 0.08151468679957533,
+        "ink_frac": 0.10813082458416892,
+        "aspect": 21.625
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b71_image.jpg"
+    },
+    {
+      "id": 72,
+      "label": "image",
+      "bbox": {
+        "x": 501,
+        "y": 2033,
+        "w": 877,
+        "h": 53
+      },
+      "stats": {
+        "edge_density": 0.08399130827650007,
+        "ink_frac": 0.10877562875153289,
+        "aspect": 16.547169811320753
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b72_image.jpg"
+    },
+    {
+      "id": 73,
+      "label": "image",
+      "bbox": {
+        "x": 166,
+        "y": 2034,
+        "w": 317,
+        "h": 49
+      },
+      "stats": {
+        "edge_density": 0.09528101461404752,
+        "ink_frac": 0.12199832614433787,
+        "aspect": 6.469387755102041
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b73_image.jpg"
+    },
+    {
+      "id": 74,
+      "label": "image",
+      "bbox": {
+        "x": 1633,
+        "y": 2092,
+        "w": 34,
+        "h": 26
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.3608597285067873,
+        "aspect": 1.3076923076923077
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b74_image.jpg"
+    },
+    {
+      "id": 75,
+      "label": "image",
+      "bbox": {
+        "x": 167,
+        "y": 2094,
+        "w": 442,
+        "h": 41
+      },
+      "stats": {
+        "edge_density": 0.10501048449398522,
+        "ink_frac": 0.13254607659198764,
+        "aspect": 10.78048780487805
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b75_image.jpg"
+    },
+    {
+      "id": 76,
+      "label": "image",
+      "bbox": {
+        "x": 746,
+        "y": 2112,
+        "w": 46,
+        "h": 23
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.21550094517958412,
+        "aspect": 2.0
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b76_image.jpg"
+    },
+    {
+      "id": 77,
+      "label": "image",
+      "bbox": {
+        "x": 248,
+        "y": 2154,
+        "w": 1127,
+        "h": 51
+      },
+      "stats": {
+        "edge_density": 0.08650416688414496,
+        "ink_frac": 0.11315830680098127,
+        "aspect": 22.098039215686274
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b77_image.jpg"
+    },
+    {
+      "id": 78,
+      "label": "image",
+      "bbox": {
+        "x": 1640,
+        "y": 2157,
+        "w": 27,
+        "h": 20
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.3648148148148148,
+        "aspect": 1.35
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b78_image.jpg"
+    },
+    {
+      "id": 79,
+      "label": "image",
+      "bbox": {
+        "x": 165,
+        "y": 2212,
+        "w": 1211,
+        "h": 53
+      },
+      "stats": {
+        "edge_density": 0.07849430534565227,
+        "ink_frac": 0.10392159917735226,
+        "aspect": 22.849056603773583
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b79_image.jpg"
+    },
+    {
+      "id": 80,
+      "label": "image",
+      "bbox": {
+        "x": 1551,
+        "y": 2242,
+        "w": 116,
+        "h": 55
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.536833855799373,
+        "aspect": 2.109090909090909
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b80_image.jpg"
+    },
+    {
+      "id": 81,
+      "label": "image",
+      "bbox": {
+        "x": 166,
+        "y": 2274,
+        "w": 1085,
+        "h": 50
+      },
+      "stats": {
+        "edge_density": 0.09139170506912442,
+        "ink_frac": 0.11817511520737327,
+        "aspect": 21.7
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b81_image.jpg"
+    },
+    {
+      "id": 82,
+      "label": "text",
+      "bbox": {
+        "x": 754,
+        "y": 2354,
+        "w": 36,
+        "h": 25
+      },
+      "stats": {
+        "edge_density": 0.04777777777777778,
+        "ink_frac": 0.06777777777777778,
+        "aspect": 1.44
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b82_text.jpg"
+    },
+    {
+      "id": 83,
+      "label": "image",
+      "bbox": {
+        "x": 145,
+        "y": 2531,
+        "w": 37,
+        "h": 20
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.47702702702702704,
+        "aspect": 1.85
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b83_image.jpg"
+    },
+    {
+      "id": 84,
+      "label": "image",
+      "bbox": {
+        "x": 1620,
+        "y": 2546,
+        "w": 47,
+        "h": 34
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.2759699624530663,
+        "aspect": 1.3823529411764706
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b84_image.jpg"
+    },
+    {
+      "id": 85,
+      "label": "image",
+      "bbox": {
+        "x": 660,
+        "y": 2563,
+        "w": 42,
+        "h": 31
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.22580645161290322,
+        "aspect": 1.3548387096774193
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b85_image.jpg"
+    },
+    {
+      "id": 86,
+      "label": "image",
+      "bbox": {
+        "x": 1583,
+        "y": 2595,
+        "w": 63,
+        "h": 22
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.3556998556998557,
+        "aspect": 2.8636363636363638
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b86_image.jpg"
+    },
+    {
+      "id": 87,
+      "label": "image",
+      "bbox": {
+        "x": 274,
+        "y": 2619,
+        "w": 56,
+        "h": 25
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.5128571428571429,
+        "aspect": 2.24
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b87_image.jpg"
+    },
+    {
+      "id": 88,
+      "label": "image",
+      "bbox": {
+        "x": 1601,
+        "y": 2620,
+        "w": 64,
+        "h": 27
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.4618055555555556,
+        "aspect": 2.3703703703703702
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b88_image.jpg"
+    },
+    {
+      "id": 89,
+      "label": "image",
+      "bbox": {
+        "x": 630,
+        "y": 2633,
+        "w": 61,
+        "h": 30
+      },
+      "stats": {
+        "edge_density": 0.0,
+        "ink_frac": 0.4245901639344262,
+        "aspect": 2.033333333333333
+      },
+      "crop": "Week7-ComputerVision/outputs/crops/sclpam_1286_full/sclpam_1286_full_b89_image.jpg"
+    }
+  ]
+}

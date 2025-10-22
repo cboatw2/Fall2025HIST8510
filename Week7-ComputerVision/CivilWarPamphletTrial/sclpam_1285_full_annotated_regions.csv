@@ -1,0 +1,3 @@
+reading_order,x,y,w,h,area,area_ratio,fill_ratio,aspect_ratio,label
+1,301,433,1205,1343,1618315,0.3671676690344145,0.5385,0.9,text_block
+2,308,1882,1205,486,585630,0.13286931284491843,0.6058,2.48,text_block
